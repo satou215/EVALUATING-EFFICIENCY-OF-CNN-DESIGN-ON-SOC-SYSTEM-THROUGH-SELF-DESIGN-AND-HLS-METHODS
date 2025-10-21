@@ -1,0 +1,2 @@
+  CREATE_STREAM @0 {NAME:CNN_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.CNN_virtual_sqr STREAM:808}
+  CREATE_STREAM @125000 {NAME:CNN_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.env_slave_svr_OutModel.s_agt.sqr STREAM:860}

@@ -1,0 +1,383 @@
+/*
+
+AMD xsim v2025.1 (64-bit) [Major: 2025, Minor: 1]
+SW Build: 6140274 on Thu May 22 00:12:29 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+
+Process ID (PID): 9036
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Jul 14 07:29:27 ICT 2025
+Time zone: 	Indochina Time (Asia/Saigon)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1020
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+OS font scaling: 125%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	D:/Xilinx/2025.1/Vivado/tps/win64/jre21.0.1_12
+Java executable: 	D:/Xilinx/2025.1/Vivado/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	satou
+User home directory: C:/Users/satou
+User working directory: D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/2025.1
+HDI_APPROOT: D:/Xilinx/2025.1/Vivado
+RDI_DATADIR: D:/Xilinx/2025.1/Vivado/data
+RDI_BINDIR: D:/Xilinx/2025.1/Vivado/bin
+
+Vivado preferences file: C:/Users/satou/AppData/Roaming/Xilinx/xsim/2025.1/vivado.xml
+Vivado preferences directory: C:/Users/satou/AppData/Roaming/Xilinx/xsim/2025.1/
+Vivado layouts directory: C:/Users/satou/AppData/Roaming/Xilinx/xsim/2025.1/data/layouts
+PlanAhead jar file: 	D:/Xilinx/2025.1/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/xsim.log
+Vivado journal file: 	D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/xsim.jou
+Engine tmp dir: 	D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/.Xil/xsim-9036-DESKTOP-F82A4M5
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+AUTOESL_JAVA: D:/Xilinx/2025.1/Vitis/tps/win64/jre11.0.16_1/bin/java
+AUTOESL_VIVADO_HLS_VERSION: true
+JAVA_EXE: D:/Xilinx/2025.1/Vitis\tps\win64\jre11.0.16_1\bin\java.exe
+JAVA_HOME: D:/Xilinx/2025.1/Vitis\tps\win64\jre11.0.16_1
+POWERSHELL_DISTRIBUTION_CHANNEL: MSI:Windows 10 Home Single Language
+RDI_APPROOT: D:/Xilinx/2025.1/Vivado
+RDI_ARGS:  -testplusarg "UVM_VERBOSITY=UVM_NONE" -testplusarg "UVM_TESTNAME=CNN_test_lib" -testplusarg "UVM_TIMEOUT=20000000000000" --noieeewarnings CNN -tclbatch CNN.tcl -gui -view CNN_dataflow_ana.wcfg -protoinst CNN.protoinst
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: D:/Xilinx/2025.1
+RDI_BINDIR: D:/Xilinx/2025.1/Vivado/bin
+RDI_BINROOT: D:/Xilinx/2025.1/Vivado/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: D:/Xilinx/2025.1/Vivado/data
+RDI_INSTALLROOT: D:/Xilinx
+RDI_INSTALLVER: Vivado
+RDI_INSTALLVERSION: 2025.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: D:/Xilinx/2025.1/Vivado/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: D:/Xilinx/2025.1/Vivado/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: D:/Xilinx/2025.1/Vivado/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: D:/Xilinx/2025.1/Vivado/lib/win64.o
+RDI_MINGW_LIB: D:/Xilinx/2025.1/Vivado\tps\mingw\6.2.0\win64.o\nt\bin;D:/Xilinx/2025.1/Vivado\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_OS_ARCH: 64
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: D:/Xilinx/2025.1/Vitis/bin;D:/Xilinx/2025.1/Vitis/bin;D:/Xilinx/2025.1/Vitis/bin
+RDI_PROG: D:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xsim.exe
+RDI_PROGNAME: xsim.exe
+RDI_PYTHON3: D:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0
+RDI_PYTHON3_VERSION: 3.13.0
+RDI_PYTHONHOME: D:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0
+RDI_PYTHONPATH: D:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0;D:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\bin;D:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib;D:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: D:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib
+RDI_SESSION_INFO: D:\Xilinx\2025.1\Vitis\bin:DESKTOP-F82A4M5-Mon07-14-2025_7-25-54.60
+RDI_SHARED_DATA: D:/Xilinx/SharedData/2025.1/data
+RDI_TEMPINSTALL: D:\Xilinx\2025.1
+RDI_TPS_ROOT: D:/Xilinx/2025.1/Vivado/tps/win64
+RDI_USE_JDK21: 1
+RDI_VERBOSE: False
+VITISNEW: true
+XILINX: D:/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_CD_CONNECT_ID: 52584
+XILINX_CD_SESSION: 3bb80ec3-7af4-42b0-b83d-4258b1b56010
+XILINX_DSP: D:/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/2025.1/Vitis
+XILINX_HLS_CLANG_3_1: D:/Xilinx/2025.1/Vitis/win64/tools/clang-3.1
+XILINX_HLS_SMALL_BANNER: 1
+XILINX_HLS_TPS_PATH: D:/Xilinx/2025.1/Vitis/tps;D:/Xilinx/2025.1/Vitis/tps/win64;D:/Xilinx/2025.1/Vivado/tps;D:/Xilinx/2025.1/Vivado/tps/win64
+XILINX_OPENCL: D:/Xilinx/2025.1/Vitis
+XILINX_PLANAHEAD: D:/Xilinx/2025.1/Vivado
+XILINX_SDK: D:/Xilinx/2025.1/Vitis
+XILINX_SVUVM_FORCE_ENABLE: 0
+XILINX_VCXX: D:/Xilinx/2025.1/Vitis/win64/tools/vcxx
+XILINX_VERSION_DEFAULT: 2025.1
+XILINX_VERSION_VITIS: 2025.1
+XILINX_VITIS: D:/Xilinx/2025.1/Vitis
+XILINX_VITIS_GIT: D:/Xilinx/2025.1/Vivado\tps\win64\git-2.46.0\bin
+XILINX_VITIS_VERSION: Vitis v2025.1 (64-bit)
+XILINX_VIVADO: D:/Xilinx/2025.1/Vivado
+_RDI_BINROOT: D:\Xilinx\2025.1\Vitis\bin
+_RDI_CWD: D:\PJ\CNN_HLS
+_RDI_VERSION_PROG: vitis-run
+_XILINX_HLS_HIDE_BANNER_SUBPROC: 1
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 886 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: source xsim.dir/CNN/xsim_script.tcl 
+// Tcl Message: # set_param project.enableReportConfiguration 0 # load_feature core 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: # current_fileset 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 89 MB (+91309kb) [00:00:16]
+// [Engine Memory]: 931 MB (+824416kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  1669 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/2025.1/Vivado/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 941 MB. GUI used memory: 74 MB. Current time: 7/14/25, 7:29:30 AM ICT
+// Tcl Message: current_fileset: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1554.707 ; gain = 161.961 
+// Tcl Message: # xsim {CNN} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=CNN_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{CNN_dataflow_ana.wcfg}} -tclbatch {CNN.tcl} -protoinst {CNN.protoinst} 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: open_wave_config CNN_dataflow_ana.wcfg 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// [GUI Memory]: 149 MB (+57549kb) [00:00:19]
+// [Engine Memory]: 1,040 MB (+65285kb) [00:00:19]
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,081 MB. GUI used memory: 80 MB. Current time: 7/14/25, 7:29:34 AM ICT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_OBJECT_TREE_REFRESHING
+// Tcl Message: source CNN.tcl 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 1,104 MB (+13184kb) [00:00:26]
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// WARNING: HEventQueue.dispatchEvent() is taking  3896 ms.
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,105 MB. GUI used memory: 80 MB. Current time: 7/14/25, 7:29:40 AM ICT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  3364 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  25749 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  5569 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,111 MB. GUI used memory: 77 MB. Current time: 7/14/25, 7:30:19 AM ICT
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  12725 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  41875 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  33983 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 1,111 MB. GUI used memory: 77 MB. Current time: 7/14/25, 7:32:36 AM ICT
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  32812 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: // RTL Simulation : 1 / 1 [100.00%] @ "5046145000" //////////////////////////////////////////////////////////////////////////////////// 
+// Tcl Message: $finish called at time : 5046215 ns : File "D:/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// WARNING: HEventQueue.dispatchEvent() is taking  11575 ms.
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME

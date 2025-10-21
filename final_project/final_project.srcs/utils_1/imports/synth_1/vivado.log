@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Tue May 20 13:12:52 2025
+# Process ID         : 8808
+# Current directory  : D:/PJ/final_project/final_project.srcs/utils_1/imports/synth_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9356 D:\PJ\final_project\final_project.srcs\utils_1\imports\synth_1\CNN.dcp
+# Log file           : D:/PJ/final_project/final_project.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file       : D:/PJ/final_project/final_project.srcs/utils_1/imports/synth_1\vivado.jou
+# Running On         : DESKTOP-F82A4M5
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16929 MB
+# Swap memory        : 6442 MB
+# Total Virtual      : 23372 MB
+# Available Virtual  : 10019 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint D:/PJ/final_project/final_project.srcs/utils_1/imports/synth_1/CNN.dcp
+Command: open_checkpoint D:/PJ/final_project/final_project.srcs/utils_1/imports/synth_1/CNN.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 1120.887 ; gain = 5.219
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2193.199 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 107 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2.1
+INFO: [Common 17-344] 'open_checkpoint' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 20 13:21:59 2025...

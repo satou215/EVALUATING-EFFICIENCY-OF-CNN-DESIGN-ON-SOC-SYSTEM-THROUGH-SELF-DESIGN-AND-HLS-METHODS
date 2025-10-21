@@ -1,0 +1,112 @@
+---
+MainSourceFile:  'D:/PJ/CNN_HLS/CNN_HLS/hls/.autopilot/db/Conv.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'D:\Xilinx\2025.1\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          279822
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'D:\Xilinx\2025.1\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          280288
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'D:\Xilinx\2025.1\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          280755
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        'D:\Xilinx\2025.1\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          575220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_15_1:  '
+    FileOffset:      15
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1075659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_15_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_41_1:  '
+    FileOffset:      41
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1076470
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_41_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_67_1:  '
+    FileOffset:      67
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1077279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_67_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1078091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_1:  '
+    FileOffset:      119
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1078896
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_1:  '
+    FileOffset:      145
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1079703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_171_1:  '
+    FileOffset:      171
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1080509
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_171_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_197_1:  '
+    FileOffset:      197
+    FilePath:        'D:\PhamDuyHoang_LuongVanDai_DA2\CNN_nopad\Conv.cpp'
+    Replacements:    
+      - FilePath:        'D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Conv.pp.0.cpp'
+        Offset:          1081318
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_197_1: '
+...

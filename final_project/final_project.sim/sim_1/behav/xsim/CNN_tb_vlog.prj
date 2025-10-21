@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../final_project.srcs/sim_1/new" \
+"../../../../final_project.srcs/sim_1/new/ALU.v" \
+"../../../../final_project.srcs/sim_1/new/CNN.v" \
+"../../../../final_project.srcs/sim_1/new/Controller.v" \
+"../../../../final_project.srcs/sim_1/new/Dual_Port_RAM.v" \
+"../../../../final_project.srcs/sim_1/new/Global_Allocator.v" \
+"../../../../final_project.srcs/sim_1/new/LSU.v" \
+"../../../../final_project.srcs/sim_1/new/PE.v" \
+"../../../../final_project.srcs/sim_1/new/CNN_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

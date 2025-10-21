@@ -1,0 +1,1539 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Sun Apr 20 02:33:24 2025
+# Process ID         : 27460
+# Current directory  : D:/PJ/final_project/final_project.runs/synth_1
+# Command line       : vivado.exe -log CNN.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CNN.tcl
+# Log file           : D:/PJ/final_project/final_project.runs/synth_1/CNN.vds
+# Journal file       : D:/PJ/final_project/final_project.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-F82A4M5
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16929 MB
+# Swap memory        : 11659 MB
+# Total Virtual      : 28589 MB
+# Available Virtual  : 3548 MB
+#-----------------------------------------------------------
+source CNN.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/PJ/final_project/final_project.srcs/utils_1/imports/synth_1/CNN.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/PJ/final_project/final_project.srcs/utils_1/imports/synth_1/CNN.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top CNN -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17548
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 853.633 ; gain = 474.371
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CNN' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:44]
+INFO: [Synth 8-6157] synthesizing module 'Dual_Port_RAM_16K' [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:80]
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Dual_Port_RAM_16K' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:80]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_16K' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:228]
+WARNING: [Synth 8-689] width (32) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_16K' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:229]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_16K' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:235]
+WARNING: [Synth 8-689] width (32) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_16K' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:237]
+INFO: [Synth 8-6157] synthesizing module 'Dual_Port_RAM_16K__parameterized0' [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:80]
+	Parameter AWIDTH bound to: 8 - type: integer 
+	Parameter DWIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Dual_Port_RAM_16K__parameterized0' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:80]
+WARNING: [Synth 8-689] width (13) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized0' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:247]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized0' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:248]
+WARNING: [Synth 8-689] width (13) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized0' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:254]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized0' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:256]
+INFO: [Synth 8-6157] synthesizing module 'Dual_Port_RAM_16K__parameterized1' [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:80]
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Dual_Port_RAM_16K__parameterized1' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:80]
+WARNING: [Synth 8-689] width (8) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized1' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:266]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized1' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:267]
+WARNING: [Synth 8-689] width (8) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized1' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:273]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_16K__parameterized1' [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:275]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [D:/PJ/final_project/final_project.srcs/sim_1/new/Controller.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Global_Allocator' [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_40_1' [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4103]
+INFO: [Synth 8-6157] synthesizing module 'MUX_20_1' [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4014]
+INFO: [Synth 8-6157] synthesizing module 'MUX_8_1' [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3971]
+INFO: [Synth 8-6157] synthesizing module 'MUX_4_1' [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3950]
+INFO: [Synth 8-226] default block is never used [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3961]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_4_1' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3950]
+INFO: [Synth 8-226] default block is never used [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4006]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_8_1' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3971]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_20_1' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4014]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2_1' [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4086]
+INFO: [Synth 8-226] default block is never used [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4095]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2_1' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4086]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_40_1' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:4103]
+INFO: [Synth 8-6155] done synthesizing module 'Global_Allocator' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PE_RP' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:424]
+	Parameter PE_IDX bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'LSU_RP' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:668]
+INFO: [Synth 8-6157] synthesizing module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:23]
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter DWIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Dual_Port_RAM_1K' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v:23]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:826]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:827]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:828]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:833]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:834]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:835]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:845]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:846]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:847]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:852]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:853]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:854]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:864]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:865]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:866]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:871]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:872]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:873]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:883]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:884]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:885]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:890]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:891]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:892]
+INFO: [Synth 8-6155] done synthesizing module 'LSU_RP' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:668]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MAC' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:137]
+INFO: [Synth 8-6155] done synthesizing module 'MAC' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:137]
+INFO: [Synth 8-6157] synthesizing module 'MAX' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:266]
+INFO: [Synth 8-6155] done synthesizing module 'MAX' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:266]
+INFO: [Synth 8-226] default block is never used [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PE_RP' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:424]
+INFO: [Synth 8-6157] synthesizing module 'PE_RP__parameterized0' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:424]
+	Parameter PE_IDX bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE_RP__parameterized0' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:424]
+INFO: [Synth 8-6157] synthesizing module 'PE' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'LSU' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:23]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:178]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:179]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:180]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:185]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:186]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:187]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:196]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:197]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:198]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:203]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:204]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:205]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:214]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:215]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:216]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:221]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:222]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:223]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:232]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:233]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:234]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:239]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:240]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:241]
+INFO: [Synth 8-6155] done synthesizing module 'LSU' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PE' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized0' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized0' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized1' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized1' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized2' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized2' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized3' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized3' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized4' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized4' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized5' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized5' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized6' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized6' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized7' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized7' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized8' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized8' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized9' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized9' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized10' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 13 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized10' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized11' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized11' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized12' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized12' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized13' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized13' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized14' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized14' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized15' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized15' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized16' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized16' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized17' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized17' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized18' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized18' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized19' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 22 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized19' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized20' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 23 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized20' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized21' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized21' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized22' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized22' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized23' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized23' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized24' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 27 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized24' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized25' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized25' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized26' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 29 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized26' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized27' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 30 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized27' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized28' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 31 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized28' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized29' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized29' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized30' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized30' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized31' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 34 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized31' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized32' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 35 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized32' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized33' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 36 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized33' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE__parameterized34' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+	Parameter PE_IDX bound to: 37 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE__parameterized34' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'PE_LP' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:633]
+	Parameter PE_IDX bound to: 38 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'LSU_LP' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:334]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:498]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:499]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:500]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:505]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:506]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:507]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:517]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:518]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:519]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:524]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:525]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:526]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:536]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:537]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:538]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:543]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:544]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:545]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:555]
+WARNING: [Synth 8-689] width (16) of port connection 'dina' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:556]
+WARNING: [Synth 8-689] width (16) of port connection 'douta' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:557]
+WARNING: [Synth 8-689] width (6) of port connection 'addrb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:562]
+WARNING: [Synth 8-689] width (16) of port connection 'dinb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:563]
+WARNING: [Synth 8-689] width (16) of port connection 'doutb' does not match port width (3) of module 'Dual_Port_RAM_1K' [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:564]
+INFO: [Synth 8-6155] done synthesizing module 'LSU_LP' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v:334]
+INFO: [Synth 8-6155] done synthesizing module 'PE_LP' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:633]
+INFO: [Synth 8-6157] synthesizing module 'PE_Last' [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:211]
+	Parameter PE_IDX bound to: 39 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PE_Last' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v:211]
+INFO: [Synth 8-6155] done synthesizing module 'CNN' (0#1) [D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v:44]
+WARNING: [Synth 8-6014] Unused sequential element j_count_2_rg_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Controller.v:248]
+WARNING: [Synth 8-6014] Unused sequential element PE0_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3101]
+WARNING: [Synth 8-6014] Unused sequential element PE0_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3103]
+WARNING: [Synth 8-6014] Unused sequential element PE1_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3106]
+WARNING: [Synth 8-6014] Unused sequential element PE1_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3107]
+WARNING: [Synth 8-6014] Unused sequential element PE1_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3108]
+WARNING: [Synth 8-6014] Unused sequential element PE1_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3110]
+WARNING: [Synth 8-6014] Unused sequential element PE2_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3114]
+WARNING: [Synth 8-6014] Unused sequential element PE2_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3115]
+WARNING: [Synth 8-6014] Unused sequential element PE2_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3117]
+WARNING: [Synth 8-6014] Unused sequential element PE3_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3120]
+WARNING: [Synth 8-6014] Unused sequential element PE3_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3121]
+WARNING: [Synth 8-6014] Unused sequential element PE3_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3122]
+WARNING: [Synth 8-6014] Unused sequential element PE3_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3124]
+WARNING: [Synth 8-6014] Unused sequential element PE4_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3128]
+WARNING: [Synth 8-6014] Unused sequential element PE4_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3129]
+WARNING: [Synth 8-6014] Unused sequential element PE4_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3131]
+WARNING: [Synth 8-6014] Unused sequential element PE5_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3134]
+WARNING: [Synth 8-6014] Unused sequential element PE5_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3135]
+WARNING: [Synth 8-6014] Unused sequential element PE5_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3136]
+WARNING: [Synth 8-6014] Unused sequential element PE5_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3138]
+WARNING: [Synth 8-6014] Unused sequential element PE6_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3142]
+WARNING: [Synth 8-6014] Unused sequential element PE6_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3143]
+WARNING: [Synth 8-6014] Unused sequential element PE6_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3145]
+WARNING: [Synth 8-6014] Unused sequential element PE7_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3148]
+WARNING: [Synth 8-6014] Unused sequential element PE7_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3149]
+WARNING: [Synth 8-6014] Unused sequential element PE7_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3150]
+WARNING: [Synth 8-6014] Unused sequential element PE7_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3152]
+WARNING: [Synth 8-6014] Unused sequential element PE8_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3156]
+WARNING: [Synth 8-6014] Unused sequential element PE8_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3157]
+WARNING: [Synth 8-6014] Unused sequential element PE8_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3159]
+WARNING: [Synth 8-6014] Unused sequential element PE9_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3162]
+WARNING: [Synth 8-6014] Unused sequential element PE9_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3163]
+WARNING: [Synth 8-6014] Unused sequential element PE9_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3164]
+WARNING: [Synth 8-6014] Unused sequential element PE9_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3166]
+WARNING: [Synth 8-6014] Unused sequential element PE10_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3170]
+WARNING: [Synth 8-6014] Unused sequential element PE10_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3171]
+WARNING: [Synth 8-6014] Unused sequential element PE10_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3173]
+WARNING: [Synth 8-6014] Unused sequential element PE11_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3176]
+WARNING: [Synth 8-6014] Unused sequential element PE11_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3177]
+WARNING: [Synth 8-6014] Unused sequential element PE11_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3178]
+WARNING: [Synth 8-6014] Unused sequential element PE11_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3180]
+WARNING: [Synth 8-6014] Unused sequential element PE12_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3184]
+WARNING: [Synth 8-6014] Unused sequential element PE12_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3185]
+WARNING: [Synth 8-6014] Unused sequential element PE12_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3187]
+WARNING: [Synth 8-6014] Unused sequential element PE13_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3190]
+WARNING: [Synth 8-6014] Unused sequential element PE13_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3191]
+WARNING: [Synth 8-6014] Unused sequential element PE13_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3192]
+WARNING: [Synth 8-6014] Unused sequential element PE13_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3194]
+WARNING: [Synth 8-6014] Unused sequential element PE14_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3198]
+WARNING: [Synth 8-6014] Unused sequential element PE14_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3199]
+WARNING: [Synth 8-6014] Unused sequential element PE14_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3201]
+WARNING: [Synth 8-6014] Unused sequential element PE15_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3204]
+WARNING: [Synth 8-6014] Unused sequential element PE15_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3205]
+WARNING: [Synth 8-6014] Unused sequential element PE15_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3206]
+WARNING: [Synth 8-6014] Unused sequential element PE15_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3208]
+WARNING: [Synth 8-6014] Unused sequential element PE16_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3212]
+WARNING: [Synth 8-6014] Unused sequential element PE16_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3213]
+WARNING: [Synth 8-6014] Unused sequential element PE16_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3215]
+WARNING: [Synth 8-6014] Unused sequential element PE17_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3218]
+WARNING: [Synth 8-6014] Unused sequential element PE17_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3219]
+WARNING: [Synth 8-6014] Unused sequential element PE17_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3220]
+WARNING: [Synth 8-6014] Unused sequential element PE17_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3222]
+WARNING: [Synth 8-6014] Unused sequential element PE18_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3226]
+WARNING: [Synth 8-6014] Unused sequential element PE18_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3227]
+WARNING: [Synth 8-6014] Unused sequential element PE18_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3229]
+WARNING: [Synth 8-6014] Unused sequential element PE19_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3232]
+WARNING: [Synth 8-6014] Unused sequential element PE19_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3233]
+WARNING: [Synth 8-6014] Unused sequential element PE19_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3234]
+WARNING: [Synth 8-6014] Unused sequential element PE19_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3236]
+WARNING: [Synth 8-6014] Unused sequential element PE20_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3240]
+WARNING: [Synth 8-6014] Unused sequential element PE20_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3241]
+WARNING: [Synth 8-6014] Unused sequential element PE20_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3243]
+WARNING: [Synth 8-6014] Unused sequential element PE21_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3246]
+WARNING: [Synth 8-6014] Unused sequential element PE21_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3247]
+WARNING: [Synth 8-6014] Unused sequential element PE21_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3248]
+WARNING: [Synth 8-6014] Unused sequential element PE21_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3250]
+WARNING: [Synth 8-6014] Unused sequential element PE22_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3254]
+WARNING: [Synth 8-6014] Unused sequential element PE22_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3255]
+WARNING: [Synth 8-6014] Unused sequential element PE22_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3257]
+WARNING: [Synth 8-6014] Unused sequential element PE23_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3260]
+WARNING: [Synth 8-6014] Unused sequential element PE23_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3261]
+WARNING: [Synth 8-6014] Unused sequential element PE23_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3262]
+WARNING: [Synth 8-6014] Unused sequential element PE23_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3264]
+WARNING: [Synth 8-6014] Unused sequential element PE24_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3268]
+WARNING: [Synth 8-6014] Unused sequential element PE24_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3269]
+WARNING: [Synth 8-6014] Unused sequential element PE24_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3271]
+WARNING: [Synth 8-6014] Unused sequential element PE25_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3274]
+WARNING: [Synth 8-6014] Unused sequential element PE25_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3275]
+WARNING: [Synth 8-6014] Unused sequential element PE25_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3276]
+WARNING: [Synth 8-6014] Unused sequential element PE25_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3278]
+WARNING: [Synth 8-6014] Unused sequential element PE26_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3282]
+WARNING: [Synth 8-6014] Unused sequential element PE26_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3283]
+WARNING: [Synth 8-6014] Unused sequential element PE26_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3285]
+WARNING: [Synth 8-6014] Unused sequential element PE27_Pixel_0_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3288]
+WARNING: [Synth 8-6014] Unused sequential element PE27_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3289]
+WARNING: [Synth 8-6014] Unused sequential element PE27_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3290]
+WARNING: [Synth 8-6014] Unused sequential element PE27_Pixel_2_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3292]
+WARNING: [Synth 8-6014] Unused sequential element PE28_Pixel_1_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3296]
+WARNING: [Synth 8-6014] Unused sequential element PE28_Pixel_1_valid_out_reg was removed.  [D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v:3297]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port CTRL_LDM_wea_in in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_web_in in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[15] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[14] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[13] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[12] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[11] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[10] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[9] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[8] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[7] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[6] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[5] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[4] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[3] in module LSU_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_addrb_in[7] in module PE_Last is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_addrb_in[6] in module PE_Last is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_addrb_in[7] in module PE_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_addrb_in[6] in module PE_LP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Padding_Read_in in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_wea_in in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_web_in in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[15] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[14] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[13] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[12] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[11] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[10] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[9] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[8] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[7] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[6] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[5] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[4] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[3] in module LSU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_wea_in in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CTRL_LDM_web_in in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[15] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[14] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[13] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[12] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[11] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[10] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[9] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[8] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[7] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[6] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[5] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[4] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ALU_LDM_dinb_in[3] in module LSU_RP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE0_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE1_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE2_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE3_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE4_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE5_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE6_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE7_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE8_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE9_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE10_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE11_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE12_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE13_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE14_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE15_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE16_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE17_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE18_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE19_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE20_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE21_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE22_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE23_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE24_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE25_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE26_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE27_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE28_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE29_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE30_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE31_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE32_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE33_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE34_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE35_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE36_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE37_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE38_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PE39_Pixel_1_valid_in in module Global_Allocator is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[31] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[30] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[29] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[28] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[27] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[26] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[25] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[24] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[23] in module CNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_CRAM_dina_in[22] in module CNN is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1018.824 ; gain = 639.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.824 ; gain = 639.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.824 ; gain = 639.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6702] IncrSynth : Design change found in an area of the design that prevents previous synthesis information being used, Reverting to default synthesis
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1273.621 ; gain = 894.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1273.621 ; gain = 894.359
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6904] The RAM "Dual_Port_RAM_16K:/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "Dual_Port_RAM_1K:/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1917.293 ; gain = 1538.031
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : Design change found in an area of the design that prevents previous synthesis information being used
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	  10 Input   32 Bit       Adders := 40    
+	   2 Input   32 Bit       Adders := 1     
+	   7 Input   23 Bit       Adders := 40    
+	   2 Input   16 Bit       Adders := 160   
+	   3 Input   16 Bit       Adders := 40    
+	   2 Input   13 Bit       Adders := 3     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 164   
+	   4 Input    6 Bit       Adders := 4     
+	   3 Input    6 Bit       Adders := 6     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 2     
+	   3 Input    3 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 40    
+	               16 Bit    Registers := 403   
+	               13 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 45    
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 328   
+	                2 Bit    Registers := 241   
+	                1 Bit    Registers := 1201  
++---RAMs : 
+	               24 Bit	(8 X 3 bit)          RAMs := 163   
++---Muxes : 
+	   5 Input   40 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   26 Bit        Muxes := 40    
+	   2 Input   25 Bit        Muxes := 40    
+	   2 Input   24 Bit        Muxes := 40    
+	   2 Input   23 Bit        Muxes := 280   
+	   2 Input   22 Bit        Muxes := 40    
+	   2 Input   21 Bit        Muxes := 40    
+	   2 Input   20 Bit        Muxes := 40    
+	   2 Input   19 Bit        Muxes := 40    
+	   2 Input   18 Bit        Muxes := 40    
+	   4 Input   16 Bit        Muxes := 604   
+	   2 Input   16 Bit        Muxes := 1074  
+	   3 Input   16 Bit        Muxes := 36    
+	   2 Input    6 Bit        Muxes := 727   
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1141  
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1486  
+	   4 Input    1 Bit        Muxes := 84    
+	   3 Input    1 Bit        Muxes := 113   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe16/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe17/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe18/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe0/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe19/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-3886] merging instance 'pe19/lsu/Opcode_rg_reg[1]' (FDR) to 'pe19/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe19/lsu/Opcode_rg_reg[0]' (FDR) to 'pe19/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[15]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[3]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[4]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[5]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[6]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[7]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[8]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[9]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[10]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[11]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[12]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[13]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe0/lsu/Pixel_2_rg_reg[14]' (FDC) to 'pe0/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe18/lsu/Opcode_rg_reg[1]' (FDR) to 'pe18/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe18/lsu/Opcode_rg_reg[0]' (FDR) to 'pe18/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe19/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe0/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe18/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe15/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe14/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe13/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe12/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-3886] merging instance 'pe12/lsu/Opcode_rg_reg[1]' (FDR) to 'pe12/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe12/lsu/Opcode_rg_reg[0]' (FDR) to 'pe12/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe13/lsu/Opcode_rg_reg[1]' (FDR) to 'pe13/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe13/lsu/Opcode_rg_reg[0]' (FDR) to 'pe13/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe14/lsu/Opcode_rg_reg[1]' (FDR) to 'pe14/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe14/lsu/Opcode_rg_reg[0]' (FDR) to 'pe14/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe15/lsu/Opcode_rg_reg[1]' (FDR) to 'pe15/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe15/lsu/Opcode_rg_reg[0]' (FDR) to 'pe15/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe12/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe13/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe14/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe15/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe1/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe1/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe1/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe1/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe36/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe36/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe36/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe36/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe37/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe37/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe37/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe37/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe35/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe35/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe35/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe35/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe34/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe34/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe34/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe34/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe33/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe33/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe33/lsu/LDM2/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe33/lsu/LDM3/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-6904] The RAM "pe32/lsu/LDM0/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "pe32/lsu/LDM1/mem_reg" of size (depth=8 x width=3) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Common 17-14] Message 'Synth 8-6904' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'pe29/lsu/Opcode_rg_reg[1]' (FDR) to 'pe29/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe29/lsu/Opcode_rg_reg[0]' (FDR) to 'pe29/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe30/lsu/Opcode_rg_reg[1]' (FDR) to 'pe30/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe30/lsu/Opcode_rg_reg[0]' (FDR) to 'pe30/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe31/lsu/Opcode_rg_reg[1]' (FDR) to 'pe31/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe31/lsu/Opcode_rg_reg[0]' (FDR) to 'pe31/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe32/lsu/Opcode_rg_reg[1]' (FDR) to 'pe32/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe32/lsu/Opcode_rg_reg[0]' (FDR) to 'pe32/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe33/lsu/Opcode_rg_reg[1]' (FDR) to 'pe33/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe33/lsu/Opcode_rg_reg[0]' (FDR) to 'pe33/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe34/lsu/Opcode_rg_reg[1]' (FDR) to 'pe34/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe34/lsu/Opcode_rg_reg[0]' (FDR) to 'pe34/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe35/lsu/Opcode_rg_reg[1]' (FDR) to 'pe35/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe35/lsu/Opcode_rg_reg[0]' (FDR) to 'pe35/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe37/lsu/Opcode_rg_reg[1]' (FDR) to 'pe37/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe37/lsu/Opcode_rg_reg[0]' (FDR) to 'pe37/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe36/lsu/Opcode_rg_reg[1]' (FDR) to 'pe36/alu/Opcode_1_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe36/lsu/Opcode_rg_reg[0]' (FDR) to 'pe36/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[15]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[3]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[4]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[5]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[6]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[7]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[8]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[9]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[10]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[11]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[12]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[13]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe1/lsu/Pixel_2_rg_reg[14]' (FDC) to 'pe1/lsu/LDM2_wea_rg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe29/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe30/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe31/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe32/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe33/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe34/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe35/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe37/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe36/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe1/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Common 17-14] Message 'Synth 8-6904' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-5546] ROM "controller/Padding_Read_rg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "controller/Padding_Read_rg" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design CNN__GB7 has port O62[2] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port O62[1] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port O62[0] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_addra_out[7] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_addra_out[6] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_wea_wr driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_addrb_out[7] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_addrb_out[6] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_web_wr driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_Store_out[7] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_Store_out[6] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_Store_out[5] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_Store_out[4] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port CTRL_LDM_Store_out[3] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Stride_wr driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[32] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[31] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[30] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[29] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[28] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[27] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[26] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[25] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[24] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[23] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[22] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[21] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[20] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[19] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[18] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[17] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[16] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[15] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[14] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[13] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[12] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[11] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[10] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[9] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[8] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[7] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[6] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[5] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[4] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[3] driven by constant 0
+WARNING: [Synth 8-3917] design CNN__GB7 has port Padding_Read_out[2] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[15]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[3]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[3]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[4]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[4]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[5]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[5]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[6]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[6]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[7]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[7]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[8]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[8]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[9]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[9]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[10]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[10]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[11]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[11]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[12]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[12]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[13]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[13]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Pixel_2_rg_reg[14]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Bias_rg_reg[14]' (FDR) to 'pe39/alu/mac/Bias_rg_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/Weight_valid_rg_reg' (FDR) to 'pe39/alu/mac/Signal_valid_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Opcode_rg_reg[0]' (FDC) to 'pe39/lsu/Opcode_rg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe39/lsu/Opcode_rg_reg[1]' (FDC) to 'pe39/lsu/LDM1_web_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe21/alu/mac/Weight_valid_rg_reg' (FDR) to 'pe21/alu/mac/Signal_valid_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe21/lsu/Opcode_rg_reg[1]' (FDR) to 'pe21/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe21/lsu/Opcode_rg_reg[0]' (FDR) to 'pe21/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe22/alu/mac/Weight_valid_rg_reg' (FDR) to 'pe22/alu/mac/Signal_valid_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe22/lsu/Opcode_rg_reg[1]' (FDR) to 'pe22/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe22/lsu/Opcode_rg_reg[0]' (FDR) to 'pe22/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe23/alu/mac/Weight_valid_rg_reg' (FDR) to 'pe23/alu/mac/Signal_valid_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe23/lsu/Opcode_rg_reg[1]' (FDR) to 'pe23/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe23/lsu/Opcode_rg_reg[0]' (FDR) to 'pe23/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe24/alu/mac/Weight_valid_rg_reg' (FDR) to 'pe24/alu/mac/Signal_valid_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe24/lsu/Opcode_rg_reg[1]' (FDR) to 'pe24/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe24/lsu/Opcode_rg_reg[0]' (FDR) to 'pe24/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe25/alu/mac/Weight_valid_rg_reg' (FDR) to 'pe25/alu/mac/Signal_valid_rg_reg'
+INFO: [Synth 8-3886] merging instance 'pe25/lsu/Opcode_rg_reg[1]' (FDR) to 'pe25/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe25/lsu/Opcode_rg_reg[0]' (FDR) to 'pe25/alu/Opcode_1_rg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe39/alu/mac/ReLU_en_rg_reg' (FDR) to 'pe39/alu/Opcode_1_rg_reg[0]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/\alu/Opcode_1_rg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/\BRAM/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/\BRAM/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_4/\BRAM/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\WRAM/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\WRAM/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\WRAM/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_8/\lsu/LDM3/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_5/\lsu/LDM2/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_2/\lsu/LDM1/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_8/\lsu/LDM3/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_5/\lsu/LDM2/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_2/\lsu/LDM1/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_8/\lsu/LDM3/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_5/\lsu/LDM2/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/i_2/\lsu/LDM1/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/\lsu/Padding_Read_state_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe39/\lsu/Padding_Read_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_6/\lsu/LDM1/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_7/\lsu/LDM2/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_8/\lsu/LDM3/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_6/\lsu/LDM1/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_7/\lsu/LDM2/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_8/\lsu/LDM3/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_6/\lsu/LDM1/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_7/\lsu/LDM2/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/i_8/\lsu/LDM3/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe21/\lsu/CTRL_LDM_addra_rg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_6/\lsu/LDM1/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_7/\lsu/LDM2/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_8/\lsu/LDM3/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_6/\lsu/LDM1/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_7/\lsu/LDM2/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_8/\lsu/LDM3/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_6/\lsu/LDM1/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_7/\lsu/LDM2/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/i_8/\lsu/LDM3/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe22/\lsu/CTRL_LDM_addra_rg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_6/\lsu/LDM1/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_7/\lsu/LDM2/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_8/\lsu/LDM3/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_6/\lsu/LDM1/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_7/\lsu/LDM2/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_8/\lsu/LDM3/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_6/\lsu/LDM1/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_7/\lsu/LDM2/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/i_8/\lsu/LDM3/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe23/\lsu/CTRL_LDM_addra_rg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_6/\lsu/LDM1/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_7/\lsu/LDM2/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_8/\lsu/LDM3/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_6/\lsu/LDM1/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_7/\lsu/LDM2/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_8/\lsu/LDM3/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_6/\lsu/LDM1/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_7/\lsu/LDM2/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/i_8/\lsu/LDM3/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe24/\lsu/CTRL_LDM_addra_rg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_LDM_addra_Incr_rg_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_LDM_y_count_rg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_LDM_y_count_rg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_LDM_y_count_rg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_LDM_y_count_rg_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_LDM_y_count_rg_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_LDM_y_count_rg_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_6/\lsu/LDM1/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_7/\lsu/LDM2/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_8/\lsu/LDM3/doutb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_6/\lsu/LDM1/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_7/\lsu/LDM2/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_8/\lsu/LDM3/doutb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_6/\lsu/LDM1/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_7/\lsu/LDM2/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/i_8/\lsu/LDM3/doutb_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/\lsu/LDM2_wea_rg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pe25/\lsu/CTRL_LDM_addra_rg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\MUX_Selection_rg_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_BRAM_addra_rg_inferred__0 /\controller/CTRL_BRAM_addra_rg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controller/CTRL_BRAM_addra_rg_inferred__0 /\controller/CTRL_BRAM_addra_rg_reg[1] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-7067] Removed DRAM instance pe25/i_8/i_0/lsu/LDM3/mem_reg_r2_0_7_0_2 from module extram__34 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe25/i_7/i_0/lsu/LDM2/mem_reg_r2_0_7_0_2 from module extram__32 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe24/i_8/i_0/lsu/LDM3/mem_reg_r2_0_7_0_2 from module extram__42 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe24/i_7/i_0/lsu/LDM2/mem_reg_r2_0_7_0_2 from module extram__40 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe23/i_8/i_0/lsu/LDM3/mem_reg_r2_0_7_0_2 from module extram__50 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe23/i_7/i_0/lsu/LDM2/mem_reg_r2_0_7_0_2 from module extram__48 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe22/i_8/i_0/lsu/LDM3/mem_reg_r2_0_7_0_2 from module extram__58 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe22/i_7/i_0/lsu/LDM2/mem_reg_r2_0_7_0_2 from module extram__56 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe21/i_8/i_0/lsu/LDM3/mem_reg_r2_0_7_0_2 from module extram__66 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe21/i_7/i_0/lsu/LDM2/mem_reg_r2_0_7_0_2 from module extram__64 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe39/i_8/i_0/lsu/LDM3/mem_reg_r2_0_7_0_2 from module extram__74 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe39/i_5/i_0/lsu/LDM2/mem_reg_r2_0_7_0_2 from module extram__72 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe25/i_7/i_0/lsu/LDM2/mem_reg_r1_0_7_0_2 from module extram__32 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe24/i_8/i_0/lsu/LDM3/mem_reg_r1_0_7_0_2 from module extram__42 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe24/i_7/i_0/lsu/LDM2/mem_reg_r1_0_7_0_2 from module extram__40 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe23/i_8/i_0/lsu/LDM3/mem_reg_r1_0_7_0_2 from module extram__50 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe23/i_7/i_0/lsu/LDM2/mem_reg_r1_0_7_0_2 from module extram__48 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe22/i_8/i_0/lsu/LDM3/mem_reg_r1_0_7_0_2 from module extram__58 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe22/i_7/i_0/lsu/LDM2/mem_reg_r1_0_7_0_2 from module extram__56 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe21/i_8/i_0/lsu/LDM3/mem_reg_r1_0_7_0_2 from module extram__66 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe21/i_7/i_0/lsu/LDM2/mem_reg_r1_0_7_0_2 from module extram__64 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe39/i_8/i_0/lsu/LDM3/mem_reg_r1_0_7_0_2 from module extram__74 due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance pe39/i_5/i_0/lsu/LDM2/mem_reg_r1_0_7_0_2 from module extram__72 due to constant propagation
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-7067] Removed DRAM instance pe25/i_7/i_0/lsu/LDM2/mem_reg_r2_0_7_0_2 from module extram__32 due to constant propagation
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+INFO: [Synth 8-4471] merging register 'max/data2_valid_rg_reg' into 'mac/Bias_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:287]
+INFO: [Synth 8-4471] merging register 'max/data1_valid_rg_reg' into 'mac/Signal_valid_rg_reg' [D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v:286]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:03:02 . Memory (MB): peak = 2006.418 ; gain = 1627.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives    | 
++------------+------------------+-----------+----------------------+---------------+
+|pe16        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe16        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe16        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe16        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe38        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe38        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe38        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe38        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe36        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe36        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe36        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe36        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe37        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe37        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe37        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe37        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe35        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe35        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe35        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe35        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe34        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe34        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe34        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe34        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe33        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe33        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe33        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe33        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe32        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe32        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe32        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe32        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe31        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe31        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe31        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe31        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe30        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe30        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe30        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe30        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe29        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe29        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe29        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe29        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe25        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe24        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe23        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe22        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe21        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe39        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|CNN__GB7    | CRAM/mem_reg     | Implied   | 8 x 3                | RAM32M16 x 1  | 
+|pe20        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe20        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe20        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe20        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe26        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe26        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe26        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe26        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe28        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe28        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe28        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe28        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe27        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe27        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe27        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe27        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
++------------+------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:03:07 . Memory (MB): peak = 2007.723 ; gain = 1628.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+------------------+-----------+----------------------+---------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives    | 
++------------+------------------+-----------+----------------------+---------------+
+|pe16        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe16        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe16        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe16        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe17        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe18        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe0         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe19        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe15        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe14        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe13        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe12        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe11        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe7         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe8         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe9         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe10        | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe6         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe5         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe4         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe3         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe2         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe38        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM1/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM2/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe1         | lsu/LDM3/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe36        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe37        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe35        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe34        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe33        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe32        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe31        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe30        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe29        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe25        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe24        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe23        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe22        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe21        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe39        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe20        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe26        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe28        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
+|pe27        | lsu/LDM0/mem_reg | Implied   | 8 x 3                | RAM32M16 x 2  | 
++------------+------------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7067] Removed DRAM instance i_5/pe1/lsu/LDM2/mem_reg_r2_0_7_0_2 from module CNN__GB6_tempName due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance i_5/pe1/lsu/LDM3/mem_reg_r2_0_7_0_2 from module CNN__GB6_tempName due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance i_5/pe1/lsu/LDM2/mem_reg_r1_0_7_0_2 from module CNN__GB6_tempName due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance i_5/pe1/lsu/LDM3/mem_reg_r1_0_7_0_2 from module CNN__GB6_tempName due to constant propagation
+INFO: [Synth 8-7067] Removed DRAM instance i_5/pe1/lsu/LDM2/mem_reg_r2_0_7_0_2 from module CNN__GB6_tempName due to constant propagation
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:35 ; elapsed = 00:03:09 . Memory (MB): peak = 2007.957 ; gain = 1628.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:39 ; elapsed = 00:03:14 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:39 ; elapsed = 00:03:14 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:39 ; elapsed = 00:03:15 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:39 ; elapsed = 00:03:15 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:39 ; elapsed = 00:03:15 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:39 ; elapsed = 00:03:15 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |LUT1   |     7|
+|3     |LUT2   |    61|
+|4     |LUT3   |    80|
+|5     |LUT4   |   190|
+|6     |LUT5   |   195|
+|7     |LUT6   |   117|
+|8     |RAM32M |    80|
+|9     |FDCE   |    10|
+|10    |FDRE   |   179|
+|11    |IBUF   |    27|
+|12    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+----------------------+------+
+|      |Instance     |Module                |Cells |
++------+-------------+----------------------+------+
+|1     |top          |                      |   964|
+|2     |  controller |Controller            |   374|
+|3     |  pe0        |PE_RP                 |    29|
+|4     |    lsu      |LSU_RP_54             |    29|
+|5     |      LDM0   |Dual_Port_RAM_1K_55   |     9|
+|6     |      LDM1   |Dual_Port_RAM_1K_56   |    16|
+|7     |  pe1        |PE_RP__parameterized0 |    27|
+|8     |    lsu      |LSU_RP                |    27|
+|9     |      LDM0   |Dual_Port_RAM_1K_52   |    10|
+|10    |      LDM1   |Dual_Port_RAM_1K_53   |    16|
+|11    |  pe10       |PE__parameterized7    |    26|
+|12    |    lsu      |LSU_49                |    26|
+|13    |      LDM0   |Dual_Port_RAM_1K_50   |     9|
+|14    |      LDM1   |Dual_Port_RAM_1K_51   |    16|
+|15    |  pe11       |PE__parameterized8    |    26|
+|16    |    lsu      |LSU_46                |    26|
+|17    |      LDM0   |Dual_Port_RAM_1K_47   |     9|
+|18    |      LDM1   |Dual_Port_RAM_1K_48   |    16|
+|19    |  pe12       |PE__parameterized9    |    26|
+|20    |    lsu      |LSU_43                |    26|
+|21    |      LDM0   |Dual_Port_RAM_1K_44   |     9|
+|22    |      LDM1   |Dual_Port_RAM_1K_45   |    16|
+|23    |  pe13       |PE__parameterized10   |    26|
+|24    |    lsu      |LSU_40                |    26|
+|25    |      LDM0   |Dual_Port_RAM_1K_41   |     9|
+|26    |      LDM1   |Dual_Port_RAM_1K_42   |    16|
+|27    |  pe14       |PE__parameterized11   |    26|
+|28    |    lsu      |LSU_37                |    26|
+|29    |      LDM0   |Dual_Port_RAM_1K_38   |     9|
+|30    |      LDM1   |Dual_Port_RAM_1K_39   |    16|
+|31    |  pe15       |PE__parameterized12   |    28|
+|32    |    lsu      |LSU_34                |    28|
+|33    |      LDM0   |Dual_Port_RAM_1K_35   |     9|
+|34    |      LDM1   |Dual_Port_RAM_1K_36   |    16|
+|35    |  pe16       |PE__parameterized13   |    32|
+|36    |    lsu      |LSU_31                |    32|
+|37    |      LDM0   |Dual_Port_RAM_1K_32   |    15|
+|38    |      LDM1   |Dual_Port_RAM_1K_33   |    16|
+|39    |  pe17       |PE__parameterized14   |    27|
+|40    |    lsu      |LSU_28                |    27|
+|41    |      LDM0   |Dual_Port_RAM_1K_29   |    10|
+|42    |      LDM1   |Dual_Port_RAM_1K_30   |    16|
+|43    |  pe18       |PE__parameterized15   |    26|
+|44    |    lsu      |LSU_25                |    26|
+|45    |      LDM0   |Dual_Port_RAM_1K_26   |     9|
+|46    |      LDM1   |Dual_Port_RAM_1K_27   |    16|
+|47    |  pe19       |PE__parameterized16   |    25|
+|48    |    lsu      |LSU_22                |    25|
+|49    |      LDM0   |Dual_Port_RAM_1K_23   |     9|
+|50    |      LDM1   |Dual_Port_RAM_1K_24   |    15|
+|51    |  pe2        |PE                    |    29|
+|52    |    lsu      |LSU_19                |    29|
+|53    |      LDM0   |Dual_Port_RAM_1K_20   |    12|
+|54    |      LDM1   |Dual_Port_RAM_1K_21   |    16|
+|55    |  pe3        |PE__parameterized0    |    26|
+|56    |    lsu      |LSU_16                |    26|
+|57    |      LDM0   |Dual_Port_RAM_1K_17   |     9|
+|58    |      LDM1   |Dual_Port_RAM_1K_18   |    16|
+|59    |  pe4        |PE__parameterized1    |    26|
+|60    |    lsu      |LSU_13                |    26|
+|61    |      LDM0   |Dual_Port_RAM_1K_14   |     9|
+|62    |      LDM1   |Dual_Port_RAM_1K_15   |    16|
+|63    |  pe5        |PE__parameterized2    |    26|
+|64    |    lsu      |LSU_10                |    26|
+|65    |      LDM0   |Dual_Port_RAM_1K_11   |     9|
+|66    |      LDM1   |Dual_Port_RAM_1K_12   |    16|
+|67    |  pe6        |PE__parameterized3    |    26|
+|68    |    lsu      |LSU_7                 |    26|
+|69    |      LDM0   |Dual_Port_RAM_1K_8    |     9|
+|70    |      LDM1   |Dual_Port_RAM_1K_9    |    16|
+|71    |  pe7        |PE__parameterized4    |    26|
+|72    |    lsu      |LSU_4                 |    26|
+|73    |      LDM0   |Dual_Port_RAM_1K_5    |     9|
+|74    |      LDM1   |Dual_Port_RAM_1K_6    |    16|
+|75    |  pe8        |PE__parameterized5    |    29|
+|76    |    lsu      |LSU_1                 |    29|
+|77    |      LDM0   |Dual_Port_RAM_1K_2    |    12|
+|78    |      LDM1   |Dual_Port_RAM_1K_3    |    16|
+|79    |  pe9        |PE__parameterized6    |    26|
+|80    |    lsu      |LSU                   |    26|
+|81    |      LDM0   |Dual_Port_RAM_1K      |     9|
+|82    |      LDM1   |Dual_Port_RAM_1K_0    |    16|
++------+-------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:39 ; elapsed = 00:03:15 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 702 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:39 ; elapsed = 00:03:17 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+Synthesis Optimization Complete : Time (s): cpu = 00:01:39 ; elapsed = 00:03:17 . Memory (MB): peak = 2104.938 ; gain = 1725.676
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2120.441 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 108 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2209.430 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 108 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  IBUF => IBUF (IBUFCTRL, INBUF): 27 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 80 instances
+
+Synth Design complete | Checksum: a2060997
+INFO: [Common 17-83] Releasing license: Synthesis
+553 Infos, 331 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:41 ; elapsed = 00:03:22 . Memory (MB): peak = 2209.430 ; gain = 1835.449
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2209.430 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/PJ/final_project/final_project.runs/synth_1/CNN.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file CNN_utilization_synth.rpt -pb CNN_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 20 02:36:59 2025...

@@ -1,0 +1,252 @@
+<ENTRY>
+{
+ "thisFile": "D:/PJ\\CNN_HLS\\CNN_HLS\\CNN_HLS.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/14/25 02:15:04",
+ "timestampMillis": "1752434104748",
+ "buildStep": {
+  "cmdId": "85886e77-6a6c-40d9-a582-21a8f3afabd8",
+  "name": "v++",
+  "logFile": "D:/PJ\\CNN_HLS\\CNN_HLS\\logs\\CNN_HLS.steps.log",
+  "commandLine": "D:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config D:\\PJ\\CNN_HLS\\hls_config.cfg --work_dir CNN_HLS ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "D:\\PJ\\CNN_HLS\\hls_config.cfg",
+   "--work_dir",
+   "CNN_HLS"
+  ],
+  "iniFiles": [
+   {
+    "path": "D:/PJ\\CNN_HLS\\hls_config.cfg",
+    "content": "part=xck26-sfvc784-2LV-c\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN.cpp\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN.h\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Conv.cpp\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Conv.h\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Dense.cpp\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Dense.h\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Pool.cpp\nsyn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Pool.h\ncsim.code_analyzer=0\nsim.O=1\nsyn.top=CNN\ncosim.wave_debug=1\ncosim.trace_level=port\ncosim.tool=xsim\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN_tb.cpp\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Float_Weights.txt\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/labels1.txt\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/labels2.txt\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/outPE.txt\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/output.txt\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/signals1.txt\ntb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/signals2.txt\ntb.file=D:/Verilog/signals_label_A_hex.txt\ntb.file=D:/Verilog/signals_label_L_hex.txt\ntb.file=D:/Verilog/signals_label_N_hex.txt\ntb.file=D:/Verilog/signals_label_R_hex.txt\ntb.file=D:/Verilog/signals_label_V_hex.txt\ntb.file=D:/Verilog/signals_N_label_hex.txt"
+   }
+  ],
+  "cwd": "D:\\PJ\\CNN_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:15:04",
+ "timestampMillis": "1752434104749",
+ "status": {
+  "cmdId": "85886e77-6a6c-40d9-a582-21a8f3afabd8",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/14/25 02:15:11",
+ "timestampMillis": "1752434111263",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "CNN",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN.h",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Conv.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Conv.h",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Dense.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Dense.h",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Pool.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Pool.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/14/25 02:15:11",
+ "timestampMillis": "1752434111264",
+ "buildStep": {
+  "cmdId": "8ab76622-2e5b-43a4-b9c7-3819bfabd8ae",
+  "name": "",
+  "logFile": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\PJ\\CNN_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:15:11",
+ "timestampMillis": "1752434111264",
+ "status": {
+  "cmdId": "8ab76622-2e5b-43a4-b9c7-3819bfabd8ae",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:15:11",
+ "timestampMillis": "1752434111264",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:15:11",
+ "timestampMillis": "1752434111265",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:15:11",
+ "timestampMillis": "1752434111265",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:16:47",
+ "timestampMillis": "1752434207972",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:16:47",
+ "timestampMillis": "1752434207973",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:16:47",
+ "timestampMillis": "1752434207973",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:16:47",
+ "timestampMillis": "1752434207973",
+ "status": {
+  "cmdId": "8ab76622-2e5b-43a4-b9c7-3819bfabd8ae",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:16:48",
+ "timestampMillis": "1752434208234",
+ "status": {
+  "cmdId": "85886e77-6a6c-40d9-a582-21a8f3afabd8",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:16:48",
+ "timestampMillis": "1752434208269",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\reports\\v++_compile_CNN_HLS_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:16:48",
+ "timestampMillis": "1752434208269",
+ "report": {
+  "path": "D:/PJ\\CNN_HLS\\CNN_HLS\\reports\\.db\\v++_compile_CNN_HLS_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

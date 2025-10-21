@@ -1,0 +1,18 @@
+0.7
+2020.2
+Dec 15 2024
+09:05:09
+D:/PJ/final_project/final_project.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/ALU.v,1745071867,verilog,,D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v,D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,ALU;MAC;MAX,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/ALU_tb.v,1742068669,verilog,,,,ALU_tb,,,,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/CNN.v,1745099865,verilog,,D:/PJ/final_project/final_project.srcs/sim_1/new/Controller.v,D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,CNN,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/CNN_tb.v,1745102928,verilog,,,D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,CNN_tb,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/Controller.v,1745096572,verilog,,D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v,D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,Controller,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/Dual_Port_RAM.v,1745102004,verilog,,D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v,D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,Dual_Port_RAM_16K;Dual_Port_RAM_1K,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/Global_Allocator.v,1745090817,verilog,,D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v,D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,Global_Allocator;MUX_20_1;MUX_2_1;MUX_40_1;MUX_4_1;MUX_8_1,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/LSU.v,1745100000,verilog,,D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v,,LSU;LSU_LP;LSU_RP,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/MAC_tb.v,1742040988,verilog,,,,MAC_tb,,,,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/MAX_tb.v,1741803096,verilog,,,,MAX_tb,,,,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/PE.v,1745099963,verilog,,D:/PJ/final_project/final_project.srcs/sim_1/new/CNN_tb.v,D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,PE;PE_LP;PE_Last;PE_RP,,,../../../../final_project.srcs/sim_1/new,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/common.vh,1745101916,verilog,,,,,,,,,,,,
+D:/PJ/final_project/final_project.srcs/sim_1/new/controller_tb.v,1745052220,verilog,,,,Controller_tb,,,../../../../final_project.srcs/sim_1/new,,,,,

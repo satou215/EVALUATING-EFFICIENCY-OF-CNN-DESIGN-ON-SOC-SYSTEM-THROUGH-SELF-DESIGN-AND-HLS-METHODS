@@ -1,0 +1,318 @@
+
+D:\PJ\CNN_HLS\CNN_HLS\hls\sim\verilog>set PATH= 
+
+D:\PJ\CNN_HLS\CNN_HLS\hls\sim\verilog>call D:/Xilinx/2025.1/Vivado/bin/xelab xil_defaultlib.apatb_CNN_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj CNN.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_20 -L floating_point_v7_0_25 --lib "ieee_proposed=./ieee_proposed" -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./CNN_subsystem  -s CNN -debug all 
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_CNN_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj CNN.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_20 -L floating_point_v7_0_25 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./CNN_subsystem -s CNN -debug all 
+Multi-threading is on. Using 10 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/AESL_automem_InModel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_InModel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/AESL_automem_Weights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_Weights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_CNN_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_7ns_7ns_9ns_17_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_7ns_7ns_9ns_17_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_7ns_7ns_9ns_17_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_7ns_8ns_10ns_19_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_7ns_8ns_10ns_19_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_7ns_8ns_10ns_19_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_7ns_9ns_11ns_21_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_7ns_9ns_11ns_21_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_7ns_9ns_11ns_21_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_8ns_10ns_12ns_23_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_8ns_10ns_12ns_23_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_8ns_10ns_12ns_23_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_8ns_8ns_10ns_19_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_8ns_8ns_10ns_19_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_8ns_8ns_10ns_19_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_8ns_9ns_11ns_21_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_8ns_9ns_11ns_21_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_8ns_9ns_11ns_21_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_9ns_10ns_12ns_23_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_9ns_10ns_12ns_23_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_9ns_10ns_12ns_23_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_am_addmul_9ns_9ns_11ns_21_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_9ns_9ns_11ns_21_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_am_addmul_9ns_9ns_11ns_21_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_detect
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_ap_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_ap_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_a_Dense_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_a_Dense_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_a_Dense_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_a_Dense_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_channel_pad_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_channel_pad_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_VITIS_LOOP_93_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_VITIS_LOOP_93_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mac_muladd_16s_12s_24ns_24_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_16s_12s_24ns_24_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_16s_12s_24ns_24_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mac_muladd_16s_16s_24ns_24_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_16s_16s_24ns_24_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_16s_16s_24ns_24_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mac_muladd_6ns_5ns_6ns_10_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_6ns_5ns_6ns_10_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_6ns_5ns_6ns_10_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mac_muladd_6ns_6ns_6ns_11_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_6ns_6ns_6ns_11_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_6ns_6ns_6ns_11_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mac_muladd_7ns_3ns_8ns_9_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_7ns_3ns_8ns_9_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_7ns_3ns_8ns_9_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mac_muladd_7ns_5ns_7ns_11_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_7ns_5ns_7ns_11_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_7ns_5ns_7ns_11_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mac_muladd_8ns_4ns_8ns_11_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_8ns_4ns_8ns_11_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module CNN_mac_muladd_8ns_4ns_8ns_11_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_10ns_12ns_21_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_10ns_12ns_21_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_11ns_13ns_23_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_11ns_13ns_23_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_16s_12s_24_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_16s_12s_24_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_16s_16s_24_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_16s_16s_24_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_16s_18ns_34_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_16s_18ns_34_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_3ns_8ns_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_3ns_8ns_8_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_5ns_7ns_11_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_5ns_7ns_11_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_7ns_9ns_15_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_7ns_9ns_15_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_8ns_10ns_17_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_8ns_10ns_17_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_mul_9ns_11ns_19_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_mul_9ns_11ns_19_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutConv0_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutConv0_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutConv1_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutConv1_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutDense0_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutDense0_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutGlobalAverPool1D_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutGlobalAverPool1D_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv0_RAM_1WNR_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv0_RAM_1WNR_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv1_RAM_1WNR_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv1_RAM_1WNR_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv2_RAM_1WNR_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv2_RAM_1WNR_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv3_RAM_1WNR_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv3_RAM_1WNR_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv4_RAM_1WNR_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv4_RAM_1WNR_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv5_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv5_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv6_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv6_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPadConv7_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPadConv7_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPool0_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPool0_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_OutPool3_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_OutPool3_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_out_Dense_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_out_Dense_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_sparsemux_7_2_16_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_sparsemux_7_2_16_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_urem_5ns_5ns_4_9_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_urem_5ns_5ns_4_9_1_divider
+INFO: [VRFC 10-311] analyzing module CNN_urem_5ns_5ns_4_9_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_urem_7ns_3ns_2_11_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_urem_7ns_3ns_2_11_1_divider
+INFO: [VRFC 10-311] analyzing module CNN_urem_7ns_3ns_2_11_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_urem_8ns_3ns_2_12_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_urem_8ns_3ns_2_12_1_divider
+INFO: [VRFC 10-311] analyzing module CNN_urem_8ns_3ns_2_12_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_urem_9ns_3ns_2_13_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CNN_urem_9ns_3ns_2_13_1_divider
+INFO: [VRFC 10-311] analyzing module CNN_urem_9ns_3ns_2_13_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/svr/svr_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/svr/svr_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/CNN_subsystem/CNN_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4468] File : /proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv, Line : 25994, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.svr_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.CNN_subsystem_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.CNN_out_Dense_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutPadConv0_RAM_1WNR_AUTO_1R...
+Compiling module xil_defaultlib.CNN_OutConv0_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutPadConv1_RAM_1WNR_AUTO_1R...
+Compiling module xil_defaultlib.CNN_OutConv1_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutPool0_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutPadConv2_RAM_1WNR_AUTO_1R...
+Compiling module xil_defaultlib.CNN_OutPadConv3_RAM_1WNR_AUTO_1R...
+Compiling module xil_defaultlib.CNN_OutPadConv4_RAM_1WNR_AUTO_1R...
+Compiling module xil_defaultlib.CNN_OutPadConv5_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutPadConv6_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutPadConv7_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutPool3_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_OutGlobalAverPool1D_RAM_AUTO...
+Compiling module xil_defaultlib.CNN_OutDense0_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.CNN_flow_control_loop_pipe_seque...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_channe...
+Compiling module xil_defaultlib.CNN_urem_9ns_3ns_2_13_1_divider(...
+Compiling module xil_defaultlib.CNN_urem_9ns_3ns_2_13_1(NUM_STAG...
+Compiling module xil_defaultlib.CNN_mul_9ns_11ns_19_1_1(NUM_STAG...
+Compiling module xil_defaultlib.CNN_mac_muladd_7ns_3ns_8ns_9_4_1...
+Compiling module xil_defaultlib.CNN_mac_muladd_7ns_3ns_8ns_9_4_1...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_3_chan...
+Compiling module xil_defaultlib.CNN_mul_16s_16s_24_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.CNN_mac_muladd_16s_16s_24ns_24_4...
+Compiling module xil_defaultlib.CNN_mac_muladd_16s_16s_24ns_24_4...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_ap_0
+Compiling module xil_defaultlib.CNN_mul_10ns_12ns_21_1_1(NUM_STA...
+Compiling module xil_defaultlib.CNN_sparsemux_7_2_16_1_1(din0_WI...
+Compiling module xil_defaultlib.CNN_am_addmul_9ns_9ns_11ns_21_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_9ns_9ns_11ns_21_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_9ns_10ns_12ns_23_4...
+Compiling module xil_defaultlib.CNN_am_addmul_9ns_10ns_12ns_23_4...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_VITIS_LOOP_41_1...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_channe...
+Compiling module xil_defaultlib.CNN_mul_3ns_8ns_8_1_1(NUM_STAGE=...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_3_chan...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_VITIS_LOOP_67_1...
+Compiling module xil_defaultlib.CNN_urem_8ns_3ns_2_12_1_divider(...
+Compiling module xil_defaultlib.CNN_urem_8ns_3ns_2_12_1(NUM_STAG...
+Compiling module xil_defaultlib.CNN_mul_11ns_13ns_23_1_1(NUM_STA...
+Compiling module xil_defaultlib.CNN_mac_muladd_8ns_4ns_8ns_11_4_...
+Compiling module xil_defaultlib.CNN_mac_muladd_8ns_4ns_8ns_11_4_...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_3_chan...
+Compiling module xil_defaultlib.CNN_mul_8ns_10ns_17_1_1(NUM_STAG...
+Compiling module xil_defaultlib.CNN_am_addmul_8ns_8ns_10ns_19_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_8ns_8ns_10ns_19_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_8ns_9ns_11ns_21_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_8ns_9ns_11ns_21_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_8ns_10ns_12ns_23_4...
+Compiling module xil_defaultlib.CNN_am_addmul_8ns_10ns_12ns_23_4...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_VITIS_LOOP_93_1...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_channe...
+Compiling module xil_defaultlib.CNN_urem_7ns_3ns_2_11_1_divider(...
+Compiling module xil_defaultlib.CNN_urem_7ns_3ns_2_11_1(NUM_STAG...
+Compiling module xil_defaultlib.CNN_mul_7ns_9ns_15_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_3_chan...
+Compiling module xil_defaultlib.CNN_am_addmul_7ns_7ns_9ns_17_4_1...
+Compiling module xil_defaultlib.CNN_am_addmul_7ns_7ns_9ns_17_4_1...
+Compiling module xil_defaultlib.CNN_am_addmul_7ns_8ns_10ns_19_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_7ns_8ns_10ns_19_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_7ns_9ns_11ns_21_4_...
+Compiling module xil_defaultlib.CNN_am_addmul_7ns_9ns_11ns_21_4_...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_VITIS_LOOP_119_...
+Compiling module xil_defaultlib.CNN_mac_muladd_7ns_5ns_7ns_11_4_...
+Compiling module xil_defaultlib.CNN_mac_muladd_7ns_5ns_7ns_11_4_...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_3_chan...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_channe...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_ap_5_l...
+Compiling module xil_defaultlib.CNN_mac_muladd_6ns_5ns_6ns_10_4_...
+Compiling module xil_defaultlib.CNN_mac_muladd_6ns_5ns_6ns_10_4_...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_3_chan...
+Compiling module xil_defaultlib.CNN_mac_muladd_6ns_6ns_6ns_11_4_...
+Compiling module xil_defaultlib.CNN_mac_muladd_6ns_6ns_6ns_11_4_...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_3_chan...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_ap_6_l...
+Compiling module xil_defaultlib.CNN_urem_5ns_5ns_4_9_1_divider(i...
+Compiling module xil_defaultlib.CNN_urem_5ns_5ns_4_9_1(NUM_STAGE...
+Compiling module xil_defaultlib.CNN_mul_5ns_7ns_11_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_channe...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_ap_7_l...
+Compiling module xil_defaultlib.CNN_mul_16s_18ns_34_1_1(NUM_STAG...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_VITIS_LOOP_93_1
+Compiling module xil_defaultlib.CNN_mul_16s_12s_24_1_1(NUM_STAGE...
+Compiling module xil_defaultlib.CNN_mac_muladd_16s_12s_24ns_24_4...
+Compiling module xil_defaultlib.CNN_mac_muladd_16s_12s_24ns_24_4...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_a_Dens...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_for_a_Dens...
+Compiling module xil_defaultlib.CNN_CNN_Pipeline_loop_detect
+Compiling module xil_defaultlib.CNN
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.svr_if(DATA_WIDTH=16)
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_automem_InModel
+Compiling module xil_defaultlib.AESL_automem_Weights
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=82)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=11)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=21)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=17)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_CNN_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CNN
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Mon Jul 14 07:29:05 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+start_gui

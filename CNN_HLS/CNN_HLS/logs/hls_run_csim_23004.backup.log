@@ -1,0 +1,60 @@
+  **** HLS Build v2025.1 6135595
+INFO: [HLS 200-2005] Using work_dir D:/PJ/CNN_HLS/CNN_HLS 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/PJ/CNN_HLS/CNN_HLS/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/PJ/CNN_HLS/CNN_HLS'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file D:/PJ/CNN_HLS/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN.cpp' from D:/PJ/CNN_HLS/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN.h' from D:/PJ/CNN_HLS/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Conv.cpp' from D:/PJ/CNN_HLS/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Conv.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Conv.h' from D:/PJ/CNN_HLS/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Conv.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Dense.cpp' from D:/PJ/CNN_HLS/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Dense.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Dense.h' from D:/PJ/CNN_HLS/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Dense.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Pool.cpp' from D:/PJ/CNN_HLS/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Pool.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Pool.h' from D:/PJ/CNN_HLS/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Pool.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN_tb.cpp' from D:/PJ/CNN_HLS/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Float_Weights.txt' from D:/PJ/CNN_HLS/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Float_Weights.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/labels1.txt' from D:/PJ/CNN_HLS/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/labels1.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/labels2.txt' from D:/PJ/CNN_HLS/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/labels2.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/outPE.txt' from D:/PJ/CNN_HLS/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/outPE.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/output.txt' from D:/PJ/CNN_HLS/hls_config.cfg(20)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/output.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/signals1.txt' from D:/PJ/CNN_HLS/hls_config.cfg(21)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/signals1.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../../PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/signals2.txt' from D:/PJ/CNN_HLS/hls_config.cfg(22)
+INFO: [HLS 200-10] Adding test bench file 'D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/signals2.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=CNN' from D:/PJ/CNN_HLS/hls_config.cfg(25)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from D:/PJ/CNN_HLS/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xck26-sfvc784-2LV-c' from D:/PJ/CNN_HLS/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+INFO: [HLS 200-1465] Applying config ini 'cosim.tool=xsim' from D:/PJ/CNN_HLS/hls_config.cfg(28)
+INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=port' from D:/PJ/CNN_HLS/hls_config.cfg(27)
+INFO: [HLS 200-1465] Applying config ini 'cosim.wave_debug=1' from D:/PJ/CNN_HLS/hls_config.cfg(26)
+INFO: [HLS 200-1465] Applying config ini 'csim.code_analyzer=0' from D:/PJ/CNN_HLS/hls_config.cfg(23)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from D:/PJ/CNN_HLS/hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying config ini 'sim.O=1' from D:/PJ/CNN_HLS/hls_config.cfg(24)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/PJ/CNN_HLS/CNN_HLS/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building optimized C Simulation binaries
+make: 'csim.exe' is up to date.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.547 seconds; peak allocated memory: 172.680 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 10s

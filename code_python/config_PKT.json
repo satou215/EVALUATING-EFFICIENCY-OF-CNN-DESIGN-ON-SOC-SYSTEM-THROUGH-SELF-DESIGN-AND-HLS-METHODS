@@ -1,0 +1,21 @@
+{
+    "in_length": 320,
+    "fs": 100,
+    "in_channels": 1,
+    "num_classes": 5,
+    "first_width": 4,
+    "learning_rate_1": 0.0001,
+    "learning_rate_2": 0.00001,
+    "batch_size_train": 20,
+    "batch_size_val": 5,
+    "batch_size_test": 5,
+    "epochs": 100,
+    "dilation": 100,
+    "pre_train_model": "/home/ai_dev_01/ECGCaptioning/ecg_captioning/training/transformertopic/models/checkpoints/before/epoch=24-step=169400.ckpt",
+    "train_labels_csv": "F:/Ky2nam3/do_an_1/code/mit_bih/train_test/train_data.csv",
+    "test_labels_csv": "F:/Ky2nam3/do_an_1/code/mit_bih/train_test/test_data.csv",
+    "val_labels_csv": "F:/Ky2nam3/do_an_1/code/mit_bih/train_test/val_data.csv",
+    "data_dir": "F:/Ky2nam3/do_an_1/code/mit_bih/dataset",
+    "pre_train": true,
+    "dict_label": {"N": 0, "L": 1, "R": 2, "V": 3, "A":  4}
+}

@@ -1,0 +1,163 @@
+<ENTRY>
+{
+ "thisFile": "D:/PJ\\CNN_HLS\\CNN_HLS\\CNN_HLS.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/14/25 02:17:51",
+ "timestampMillis": "1752434271815",
+ "buildStep": {
+  "cmdId": "0af0edbd-33fb-48dc-a1ec-7ccd18042c5a",
+  "name": "vitis-run",
+  "logFile": "D:/PJ\\CNN_HLS\\CNN_HLS\\logs\\CNN_HLS.steps.log",
+  "commandLine": "D:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\PJ\\CNN_HLS\\hls_config.cfg --work_dir CNN_HLS ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\PJ\\CNN_HLS\\hls_config.cfg",
+   "--work_dir",
+   "CNN_HLS"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\PJ\\CNN_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:17:51",
+ "timestampMillis": "1752434271815",
+ "status": {
+  "cmdId": "0af0edbd-33fb-48dc-a1ec-7ccd18042c5a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/14/25 02:17:56",
+ "timestampMillis": "1752434276371",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "CNN",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN.h",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Conv.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Conv.h",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Dense.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Dense.h",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Pool.cpp",
+     "D:/PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Pool.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/14/25 02:17:56",
+ "timestampMillis": "1752434276372",
+ "buildStep": {
+  "cmdId": "bd816931-b82a-44c0-bb02-e1638a1abf6b",
+  "name": "",
+  "logFile": "D:/PJ\\CNN_HLS\\CNN_HLS\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\PJ\\CNN_HLS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:17:56",
+ "timestampMillis": "1752434276373",
+ "status": {
+  "cmdId": "bd816931-b82a-44c0-bb02-e1638a1abf6b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:18:00",
+ "timestampMillis": "1752434280163",
+ "status": {
+  "cmdId": "bd816931-b82a-44c0-bb02-e1638a1abf6b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/14/25 02:18:00",
+ "timestampMillis": "1752434280300",
+ "status": {
+  "cmdId": "0af0edbd-33fb-48dc-a1ec-7ccd18042c5a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:18:00",
+ "timestampMillis": "1752434280300",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/14/25 02:18:00",
+ "timestampMillis": "1752434280301",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

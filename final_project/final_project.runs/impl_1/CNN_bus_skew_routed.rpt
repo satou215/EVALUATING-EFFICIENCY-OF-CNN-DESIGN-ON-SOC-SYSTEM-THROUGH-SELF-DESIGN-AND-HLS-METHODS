@@ -1,0 +1,17 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date              : Sun Apr 20 02:40:03 2025
+| Host              : DESKTOP-F82A4M5 running 64-bit major release  (build 9200)
+| Command           : report_bus_skew -warn_on_violation -file CNN_bus_skew_routed.rpt -pb CNN_bus_skew_routed.pb -rpx CNN_bus_skew_routed.rpx
+| Design            : CNN
+| Device            : xck26-sfvc784
+| Speed File        : -2LV  PRODUCTION 1.30 05-15-2022
+| Design State      : Routed
+| Temperature Grade : C
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

@@ -1,0 +1,233 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Jul 14 07:29:05 2025
+# Process ID         : 9036
+# Current directory  : D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog
+# Command line       : xsim.exe -source {xsim.dir/CNN/xsim_script.tcl}
+# Log file           : D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog/xsim.log
+# Journal file       : D:/PJ/CNN_HLS/CNN_HLS/hls/sim/verilog\xsim.jou
+# Running On         : DESKTOP-F82A4M5
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16929 MB
+# Swap memory        : 5905 MB
+# Total Virtual      : 22835 MB
+# Available Virtual  : 12361 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/CNN/xsim_script.tcl
+# set_param project.enableReportConfiguration 0
+# load_feature core
+# current_fileset
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\ac701\1.4\board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.0\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.1\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/2025.1/Vivado/data/ip'.
+current_fileset: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1554.707 ; gain = 161.961
+# xsim {CNN} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=CNN_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{CNN_dataflow_ana.wcfg}} -tclbatch {CNN.tcl} -protoinst {CNN.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file CNN.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN//AESL_inst_CNN_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/grp_CNN_Pipeline_loop_detect_fu_1190_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity
+Time resolution is 1 ps
+open_wave_config CNN_dataflow_ana.wcfg
+source CNN.tcl
+## log_wave [get_objects -filter {type == in_port || type == out_port || type == inout_port || type == port} /apatb_CNN_top/AESL_inst_CNN/*]
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $coutputgroup]
+## add_wave /apatb_CNN_top/AESL_inst_CNN/OutModel_ap_vld -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/OutModel -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set return_group [add_wave_group return(memory) -into $cinputgroup]
+## add_wave /apatb_CNN_top/AESL_inst_CNN/Weights_q1 -into $return_group -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/Weights_ce1 -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/Weights_address1 -into $return_group -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/Weights_q0 -into $return_group -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/Weights_ce0 -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/Weights_address0 -into $return_group -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/InModel_q0 -into $return_group -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/InModel_ce0 -into $return_group -color #ffff00 -radix hex
+## add_wave /apatb_CNN_top/AESL_inst_CNN/InModel_address0 -into $return_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_CNN_top/AESL_inst_CNN/ap_start -into $blocksiggroup
+## add_wave /apatb_CNN_top/AESL_inst_CNN/ap_done -into $blocksiggroup
+## add_wave /apatb_CNN_top/AESL_inst_CNN/ap_idle -into $blocksiggroup
+## add_wave /apatb_CNN_top/AESL_inst_CNN/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_CNN_top/AESL_inst_CNN/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_CNN_top/AESL_inst_CNN/ap_clk -into $clockgroup
+## save_wave_config CNN.wcfg
+## run all
+UVM_INFO D:/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO D:/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO D:/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------------------------------------------------------
+Name                                               Type                                 Size  Value           
+--------------------------------------------------------------------------------------------------------------
+uvm_test_top                                       CNN_test_lib                         -     @348            
+  top_env                                          CNN_env                              -     @359            
+    CNN_virtual_sqr                                CNN_virtual_sequencer                -     @421            
+      rsp_export                                   uvm_analysis_export                  -     @430            
+      seq_item_export                              uvm_seq_item_pull_imp                -     @548            
+      arbitration_queue                            array                                0     -               
+      lock_queue                                   array                                0     -               
+      num_last_reqs                                integral                             32    'd1             
+      num_last_rsps                                integral                             32    'd1             
+    env_slave_svr_OutModel                         uvm_env                              -     @376            
+      s_agt                                        uvm_agent                            -     @564            
+        drv                                        uvm_driver #(REQ,RSP)                -     @712            
+          rsp_port                                 uvm_analysis_port                    -     @731            
+          seq_item_port                            uvm_seq_item_pull_port               -     @721            
+        mon                                        uvm_monitor                          -     @741            
+          item_collect_port                        uvm_analysis_port                    -     @752            
+        sqr                                        uvm_sequencer                        -     @575            
+          rsp_export                               uvm_analysis_export                  -     @584            
+          seq_item_export                          uvm_seq_item_pull_imp                -     @702            
+          arbitration_queue                        array                                0     -               
+          lock_queue                               array                                0     -               
+          num_last_reqs                            integral                             32    'd1             
+          num_last_rsps                            integral                             32    'd1             
+    refm                                           CNN_reference_model                  -     @389            
+      trans_num_idx                                integral                             32    'h0             
+    subsys_mon                                     CNN_subsystem_monitor                -     @402            
+      scbd                                         CNN_scoreboard                       -     @774            
+        refm                                       CNN_reference_model                  -     @389            
+          trans_num_idx                            integral                             32    'h0             
+        TVOUT_transaction_size_queue               da(integral)                         0     -               
+        file_wr_port_OutModel_OutModel             <unknown>                            -     @784            
+          TV_FILE                                  string                               0     ""              
+          fp                                       integral                             32    'hxxxxxxxx      
+          file_open                                integral                             32    'h0             
+          write_file_done                          integral                             32    'h0             
+          write_section_done                       integral                             32    'h0             
+          TRANSACTION_NUM                          integral                             32    'h0             
+          transaction_num_idx                      integral                             32    'h0             
+          TRANSACTION_DEPTH                        integral                             32    'h0             
+          TRANSACTION_DEPTH_queue                  da(integral)                         0     -               
+          TRANSACTION_DEPTH_queue_for_depth_check  da(integral)                         0     -               
+          transaction_depth_idx                    integral                             32    'h0             
+          ap_done_num_idx                          integral                             32    'h0             
+          is_binary                                integral                             32    'h0             
+        write_file_done_OutModel_OutModel          integral                             32    'h0             
+        write_section_done_OutModel_OutModel       integral                             32    'h0             
+      svr_slave_OutModel_imp                       uvm_analysis_imp_svr_slave_OutModel  -     @411            
+    env_slave_svr_OutModel                         uvm_env                              -     @376            
+    refm                                           CNN_reference_model                  -     @389            
+    CNN_virtual_sqr                                CNN_virtual_sequencer                -     @421            
+    CNN_cfg                                        CNN_config                           -     @373            
+      port_OutModel_cfg                            svr_config                           -     @374            
+        svr_type                                   svr_inst_type                        32    SVR_SLAVE       
+        prt_type                                   svr_protocol_type                    32    AP_VLD          
+        is_active                                  svr_active_passive_enum              1     SVR_ACTIVE      
+        reset_level                                svr_reset_level_enum                 1     RESET_LEVEL_HIGH
+        spec_cfg                                   svr_spec_cfg_enum                    32    NORMAL          
+        clatency                                   svr_latency                          -     @375            
+          transfer_latency                         integral                             32    'h0             
+      check_ena                                    integral                             32    'h0             
+      cover_ena                                    integral                             32    'h0             
+--------------------------------------------------------------------------------------------------------------
+
+UVM_INFO D:/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "5046145000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 5046215 ns : File "D:/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699

@@ -1,0 +1,269 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2024.2.1 (win64) Build 5266912 Sun Dec 15 09:03:24 MST 2024
+| Date             : Sun Apr 20 02:39:58 2025
+| Host             : DESKTOP-F82A4M5 running 64-bit major release  (build 9200)
+| Command          : report_power -file CNN_power_routed.rpt -pb CNN_power_summary_routed.pb -rpx CNN_power_routed.rpx
+| Design           : CNN
+| Device           : xck26-sfvc784-2LV-c
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 2.424        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 2.125        |
+| Device Static (W)        | 0.299        |
+| Effective TJA (C/W)      | 2.3          |
+| Max Ambient (C)          | 79.4         |
+| Junction Temperature (C) | 30.6         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| CLB Logic                |     0.998 |     1583 |       --- |             --- |
+|   LUT as Logic           |     0.629 |      603 |    117120 |            0.51 |
+|   LUT as Distributed RAM |     0.359 |      320 |     57600 |            0.56 |
+|   Register               |     0.010 |      189 |    234240 |            0.08 |
+|   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
+|   Others                 |     0.000 |      104 |       --- |             --- |
+| Signals                  |     0.917 |      954 |       --- |             --- |
+| I/O                      |     0.210 |       44 |       189 |           23.28 |
+| Static Power             |     0.299 |          |           |                 |
+| Total                    |     2.424 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
++-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Vccint          |       0.720 |     2.744 |       2.660 |      0.084 |       NA    | Unspecified | NA         |
+| Vccint_io       |       0.850 |     0.133 |       0.097 |      0.036 |       NA    | Unspecified | NA         |
+| Vccbram         |       0.850 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| Vccaux          |       1.800 |     0.075 |       0.000 |      0.075 |       NA    | Unspecified | NA         |
+| Vccaux_io       |       1.800 |     0.042 |       0.011 |      0.031 |       NA    | Unspecified | NA         |
+| Vcco33          |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco25          |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco18          |       1.800 |     0.061 |       0.061 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco15          |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco135         |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco12          |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco10          |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccadc          |       1.800 |     0.008 |       0.000 |      0.008 |       NA    | Unspecified | NA         |
+| VCC_PSINTFP     |       0.850 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSINTLP     |       0.850 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VPS_MGTRAVCC    |       0.850 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSINTFP_DDR |       0.850 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSPLL       |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VPS_MGTRAVTT    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCCO_PSDDR_504  |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSAUX       |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSBATT      |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSDDR_PLL   |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCCO_PSIO0_500  |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCCO_PSIO1_501  |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCCO_PSIO2_502  |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCCO_PSIO3_503  |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSADC       |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| MGTAVcc         |       0.900 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| MGTAVtt         |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| MGTVccaux       |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
++-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 2.3                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 5.5                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++----------------------------------+-----------+
+| Name                             | Power (W) |
++----------------------------------+-----------+
+| CNN                              |     2.125 |
+|   AXI_CRAM_addra_in_IBUF[0]_inst |     0.006 |
+|   AXI_CRAM_addra_in_IBUF[1]_inst |     0.006 |
+|   AXI_CRAM_addra_in_IBUF[2]_inst |     0.006 |
+|   AXI_CRAM_addra_in_IBUF[3]_inst |     0.006 |
+|   AXI_CRAM_addra_in_IBUF[4]_inst |     0.006 |
+|   AXI_CRAM_addra_in_IBUF[5]_inst |     0.006 |
+|   AXI_CRAM_ena_in_IBUF_inst      |     0.006 |
+|   AXI_CRAM_wea_in_IBUF_inst      |     0.006 |
+|   AXI_LDM_addra_in_IBUF[0]_inst  |     0.034 |
+|   AXI_LDM_addra_in_IBUF[10]_inst |     0.012 |
+|   AXI_LDM_addra_in_IBUF[11]_inst |     0.013 |
+|   AXI_LDM_addra_in_IBUF[12]_inst |     0.015 |
+|   AXI_LDM_addra_in_IBUF[13]_inst |     0.013 |
+|   AXI_LDM_addra_in_IBUF[1]_inst  |     0.033 |
+|   AXI_LDM_addra_in_IBUF[2]_inst  |     0.035 |
+|   AXI_LDM_addra_in_IBUF[6]_inst  |     0.063 |
+|   AXI_LDM_addra_in_IBUF[7]_inst  |     0.063 |
+|   AXI_LDM_addra_in_IBUF[8]_inst  |     0.016 |
+|   AXI_LDM_addra_in_IBUF[9]_inst  |     0.015 |
+|   AXI_LDM_dina_in_IBUF[0]_inst   |     0.038 |
+|   AXI_LDM_dina_in_IBUF[1]_inst   |     0.028 |
+|   AXI_LDM_dina_in_IBUF[2]_inst   |     0.029 |
+|   AXI_LDM_ena_in_IBUF_inst       |     0.014 |
+|   AXI_LDM_wea_in_IBUF_inst       |     0.043 |
+|   CLK_IBUF_inst                  |     0.005 |
+|   controller                     |     0.648 |
+|   pe0                            |     0.046 |
+|     lsu                          |     0.046 |
+|       LDM0                       |     0.021 |
+|       LDM1                       |     0.023 |
+|   pe1                            |     0.064 |
+|     lsu                          |     0.064 |
+|       LDM0                       |     0.043 |
+|       LDM1                       |     0.021 |
+|   pe10                           |     0.037 |
+|     lsu                          |     0.037 |
+|       LDM0                       |     0.017 |
+|       LDM1                       |     0.020 |
+|   pe11                           |     0.038 |
+|     lsu                          |     0.038 |
+|       LDM0                       |     0.020 |
+|       LDM1                       |     0.019 |
+|   pe12                           |     0.039 |
+|     lsu                          |     0.039 |
+|       LDM0                       |     0.019 |
+|       LDM1                       |     0.020 |
+|   pe13                           |     0.039 |
+|     lsu                          |     0.039 |
+|       LDM0                       |     0.019 |
+|       LDM1                       |     0.020 |
+|   pe14                           |     0.039 |
+|     lsu                          |     0.039 |
+|       LDM0                       |     0.019 |
+|       LDM1                       |     0.020 |
+|   pe15                           |     0.059 |
+|     lsu                          |     0.059 |
+|       LDM0                       |     0.019 |
+|       LDM1                       |     0.022 |
+|   pe16                           |     0.044 |
+|     lsu                          |     0.044 |
+|       LDM0                       |     0.020 |
+|       LDM1                       |     0.023 |
+|   pe17                           |     0.054 |
+|     lsu                          |     0.054 |
+|       LDM0                       |     0.033 |
+|       LDM1                       |     0.021 |
+|   pe18                           |     0.041 |
+|     lsu                          |     0.041 |
+|       LDM0                       |     0.020 |
+|       LDM1                       |     0.021 |
+|   pe19                           |     0.038 |
+|     lsu                          |     0.038 |
+|       LDM0                       |     0.018 |
+|       LDM1                       |     0.019 |
+|   pe2                            |     0.042 |
+|     lsu                          |     0.042 |
+|       LDM0                       |     0.021 |
+|       LDM1                       |     0.021 |
+|   pe3                            |     0.040 |
+|     lsu                          |     0.040 |
+|       LDM0                       |     0.021 |
+|       LDM1                       |     0.019 |
+|   pe4                            |     0.042 |
+|     lsu                          |     0.042 |
+|       LDM0                       |     0.021 |
+|       LDM1                       |     0.021 |
+|   pe5                            |     0.039 |
+|     lsu                          |     0.039 |
+|       LDM0                       |     0.020 |
+|       LDM1                       |     0.019 |
+|   pe6                            |     0.041 |
+|     lsu                          |     0.041 |
+|       LDM0                       |     0.020 |
+|       LDM1                       |     0.020 |
+|   pe7                            |     0.039 |
+|     lsu                          |     0.039 |
+|       LDM0                       |     0.021 |
+|       LDM1                       |     0.018 |
+|   pe8                            |     0.040 |
+|     lsu                          |     0.040 |
+|       LDM0                       |     0.019 |
+|       LDM1                       |     0.021 |
+|   pe9                            |     0.041 |
+|     lsu                          |     0.041 |
+|       LDM0                       |     0.019 |
+|       LDM1                       |     0.021 |
+|   start_in_IBUF_inst             |     0.006 |
++----------------------------------+-----------+
+
+

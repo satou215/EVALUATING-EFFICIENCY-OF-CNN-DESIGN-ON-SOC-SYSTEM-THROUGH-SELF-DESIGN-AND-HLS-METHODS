@@ -1,0 +1,13 @@
+{
+  "name": "CNN_HLS",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "CNN_HLS"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}

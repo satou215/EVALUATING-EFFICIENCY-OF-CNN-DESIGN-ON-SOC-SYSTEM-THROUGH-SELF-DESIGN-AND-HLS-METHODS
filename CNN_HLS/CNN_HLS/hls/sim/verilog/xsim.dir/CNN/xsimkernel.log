@@ -1,0 +1,4 @@
+Running: xsim.dir/CNN/xsimk.exe -simmode gui -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=CNN_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -wdb CNN.wdb -simrunnum 0 -socket 52809
+Design successfully loaded
+Design Loading Memory Usage: 23276 KB (Peak: 23276 KB)
+Design Loading CPU Usage: 46 ms

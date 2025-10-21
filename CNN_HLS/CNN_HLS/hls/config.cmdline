@@ -1,0 +1,3 @@
+relativeroot=D:/PJ/CNN_HLS
+original_argv=--mode hls --cosim --config D:\PJ\CNN_HLS\hls_config.cfg --work_dir CNN_HLS 
+

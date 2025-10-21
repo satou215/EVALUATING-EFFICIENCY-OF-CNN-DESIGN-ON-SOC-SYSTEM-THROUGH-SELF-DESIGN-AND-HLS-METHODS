@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CNN.wdb" id="1">
+         <top_modules>
+            <top_module name="CNN_subsystem_pkg" />
+            <top_module name="\$unit_dataflow_monitor_sv " />
+            <top_module name="\$unit_sv_module_top_sv " />
+            <top_module name="apatb_CNN_top" />
+            <top_module name="file_agent_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="svr_pkg" />
+            <top_module name="uvm_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="13.210085 us"></ZoomEndTime>
+      <Cursor1Time time="0.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="HLS Process Summary Group" type="group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN//AESL_inst_CNN_activity" type="group">
+         <obj_property name="label">AESL_inst_CNN_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_CNN_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_CNN_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN//AESL_inst_CNN_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN//AESL_inst_CNN_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN//AESL_inst_CNN_activity.dataflowTxTooltipData</obj_property>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/grp_CNN_Pipeline_loop_detect_fu_1190_activity" type="group">
+            <obj_property name="label">grp_CNN_Pipeline_loop_detect_fu_1190_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_detect_fu_1190_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_detect_fu_1190_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/grp_CNN_Pipeline_loop_detect_fu_1190_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/grp_CNN_Pipeline_loop_detect_fu_1190_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/grp_CNN_Pipeline_loop_detect_fu_1190_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/AESL_inst_CNN_activity" type="protoinst">
+      <obj_property name="ElementShortName">AESL_inst_CNN_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_CNN_activity</obj_property>
+   </wvobject>
+   <wvobject fp_name="AESL_inst_CNN_group" type="group">
+      <obj_property name="label">AESL_inst_CNN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_0_fu_941_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/grp_CNN_Pipeline_loop_detect_fu_1190_activity" type="protoinst">
+         <obj_property name="ElementShortName">grp_CNN_Pipeline_loop_detect_fu_1190_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_CNN_Pipeline_loop_detect_fu_1190_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="AESL_inst_CNN_Handshake_group" type="group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_0_fu_941_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_0_fu_941</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_0_fu_941_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_0_fu_941/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="grp_CNN_Pipeline_loop_detect_fu_1190_group" type="group">
+         <obj_property name="label">grp_CNN_Pipeline_loop_detect_fu_1190</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="grp_CNN_Pipeline_loop_detect_fu_1190_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/grp_CNN_Pipeline_loop_detect_fu_1190/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group377" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group378" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group379" type="group">
+            <obj_property name="label">return(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/OutModel_ap_vld" type="logic">
+               <obj_property name="ElementShortName">OutModel_ap_vld</obj_property>
+               <obj_property name="ObjectShortName">OutModel_ap_vld</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/OutModel" type="array">
+               <obj_property name="ElementShortName">OutModel[15:0]</obj_property>
+               <obj_property name="ObjectShortName">OutModel[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group382" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group383" type="group">
+            <obj_property name="label">return(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/Weights_q1" type="array">
+               <obj_property name="ElementShortName">Weights_q1[15:0]</obj_property>
+               <obj_property name="ObjectShortName">Weights_q1[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/Weights_ce1" type="logic">
+               <obj_property name="ElementShortName">Weights_ce1</obj_property>
+               <obj_property name="ObjectShortName">Weights_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/Weights_address1" type="array">
+               <obj_property name="ElementShortName">Weights_address1[13:0]</obj_property>
+               <obj_property name="ObjectShortName">Weights_address1[13:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/Weights_q0" type="array">
+               <obj_property name="ElementShortName">Weights_q0[15:0]</obj_property>
+               <obj_property name="ObjectShortName">Weights_q0[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/Weights_ce0" type="logic">
+               <obj_property name="ElementShortName">Weights_ce0</obj_property>
+               <obj_property name="ObjectShortName">Weights_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/Weights_address0" type="array">
+               <obj_property name="ElementShortName">Weights_address0[13:0]</obj_property>
+               <obj_property name="ObjectShortName">Weights_address0[13:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/InModel_q0" type="array">
+               <obj_property name="ElementShortName">InModel_q0[15:0]</obj_property>
+               <obj_property name="ObjectShortName">InModel_q0[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/InModel_ce0" type="logic">
+               <obj_property name="ElementShortName">InModel_ce0</obj_property>
+               <obj_property name="ObjectShortName">InModel_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/InModel_address0" type="array">
+               <obj_property name="ElementShortName">InModel_address0[8:0]</obj_property>
+               <obj_property name="ObjectShortName">InModel_address0[8:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group393" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group398" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_rst" type="logic">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group400" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_CNN_top/AESL_inst_CNN/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,50 @@
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:2256:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:2256:5: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:2270:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:2270:5: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:2284:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:2284:5: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:4252:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1248_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:4252:7: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10252:4: warning: Added loop label VITIS_LOOP_13_1:   [xilinx-label-all-loops]
+   for (int j = 0; j < PoolSize; j++)
+   ^~~
+   VITIS_LOOP_13_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10252:4: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10274:4: warning: Added loop label VITIS_LOOP_35_1:   [xilinx-label-all-loops]
+   for (int j = 0; j < PoolSize; j++)
+   ^~~
+   VITIS_LOOP_35_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10274:4: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10296:4: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+   for (int j = 0; j < PoolSize; j++)
+   ^~~
+   VITIS_LOOP_57_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10296:4: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10318:4: warning: Added loop label VITIS_LOOP_79_1:   [xilinx-label-all-loops]
+   for (int j = 0; j < PoolSize; j++)
+   ^~~
+   VITIS_LOOP_79_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10318:4: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10332:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < 32; i++){
+ ^~~
+ VITIS_LOOP_93_1: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10332:2: note: FIX-IT applied suggested code changes
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10334:3: warning: Added loop label VITIS_LOOP_95_2:   [xilinx-label-all-loops]
+  for (int j = 0; j < 20; j++){
+  ^~~
+  VITIS_LOOP_95_2: 
+D:\PJ\CNN_HLS\CNN_HLS\hls\.autopilot\db\Pool.pp.0.cpp:10334:3: note: FIX-IT applied suggested code changes

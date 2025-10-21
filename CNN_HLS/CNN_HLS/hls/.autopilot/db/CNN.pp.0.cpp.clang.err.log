@@ -1,0 +1,36 @@
+In file included from D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/CNN.cpp:1:
+In file included from D:/PhamDuyHoang_LuongVanDai_DA2/CNN_nopad/Conv.h:1:
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:149:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=get_data_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:154:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=set_data_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:219:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=keep_all_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:332:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=empty_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:340:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=full_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:349:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:360:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:372:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=write_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:383:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=read_nb_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+D:/Xilinx/2025.1/Vitis/common/technology/autopilot\ap_axi_sdata.h:400:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=inline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=write_nb_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS inline
+        ^
+directive:1:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=CNN_XLX_SEP_ PragmaOptions=name=CNN_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=CNN
+        ^
+11 warnings generated.

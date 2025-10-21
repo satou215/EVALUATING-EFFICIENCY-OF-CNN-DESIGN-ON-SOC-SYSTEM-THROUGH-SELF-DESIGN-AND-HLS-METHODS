@@ -1,0 +1,428 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "23 2 4 11 16 22 13 8 19 14 1 15 17 9 3 20 5 6 21 7 12 10 18",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "CNN.cpp",
+    "fileloc": 8,
+    "instructions": 109,
+    "memory_accesses": 0,
+    "name": "CNN",
+    "total_instructions": 2175
+  },
+  "1": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 107,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_4",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "10": {
+    "basicblocks": 58,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Dense.cpp",
+    "fileloc": 3,
+    "instructions": 135,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Dense_0",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 135
+  },
+  "11": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 38,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_1",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  },
+  "12": {
+    "basicblocks": 27,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 5,
+    "file": "Pool.cpp",
+    "fileloc": 91,
+    "instructions": 69,
+    "loads": {
+      "L": 3
+    },
+    "memory_accesses": 3,
+    "name": "GlobalAveragePool1D",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 69
+  },
+  "13": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 64,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_2",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  },
+  "14": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 5,
+    "file": "Pool.cpp",
+    "fileloc": 25,
+    "instructions": 40,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 1,
+    "name": "Max_Pool1D_1",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 40
+  },
+  "15": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 116,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_4",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  },
+  "16": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 5,
+    "file": "Pool.cpp",
+    "fileloc": 3,
+    "instructions": 40,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 1,
+    "name": "Max_Pool1D_0",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 40
+  },
+  "17": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 133,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_5",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "18": {
+    "basicblocks": 54,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Dense.cpp",
+    "fileloc": 14,
+    "instructions": 134,
+    "loads": {
+      "L": 9
+    },
+    "memory_accesses": 4,
+    "name": "Dense_1",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 134
+  },
+  "19": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 90,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_3",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  },
+  "2": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 12,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_0",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  },
+  "20": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 159,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_6",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "21": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 194,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_7",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  },
+  "22": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 55,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_2",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "23": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 3,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_0",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "3": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 5,
+    "file": "Pool.cpp",
+    "fileloc": 47,
+    "instructions": 40,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 1,
+    "name": "Max_Pool1D_2",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 40
+  },
+  "4": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 29,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_1",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "5": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 168,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_6",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  },
+  "6": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 185,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_7",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "7": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 5,
+    "file": "Pool.cpp",
+    "fileloc": 69,
+    "instructions": 40,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 1,
+    "name": "Max_Pool1D_3",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 40
+  },
+  "8": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 4,
+    "file": "Conv.cpp",
+    "fileloc": 81,
+    "instructions": 37,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "Padding_Conv1D_3",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 37
+  },
+  "9": {
+    "basicblocks": 63,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 7,
+    "file": "Conv.cpp",
+    "fileloc": 142,
+    "instructions": 159,
+    "loads": {
+      "L": 8
+    },
+    "memory_accesses": 2,
+    "name": "Conv1D_5",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 159
+  }
+}

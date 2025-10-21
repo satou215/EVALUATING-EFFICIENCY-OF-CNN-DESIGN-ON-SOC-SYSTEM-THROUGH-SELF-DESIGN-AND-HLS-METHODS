@@ -1,0 +1,66 @@
+[
+  {
+    "directory": "D:\\PJ\\CNN_HLS",
+    "arguments": [
+      "D:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=CNN",
+      "-c",
+      "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Pool.cpp"
+    ],
+    "file": "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Pool.cpp"
+  },
+  {
+    "directory": "D:\\PJ\\CNN_HLS",
+    "arguments": [
+      "D:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=CNN",
+      "-c",
+      "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Conv.cpp"
+    ],
+    "file": "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Conv.cpp"
+  },
+  {
+    "directory": "D:\\PJ\\CNN_HLS",
+    "arguments": [
+      "D:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=CNN",
+      "-c",
+      "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Dense.cpp"
+    ],
+    "file": "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\Dense.cpp"
+  },
+  {
+    "directory": "D:\\PJ\\CNN_HLS",
+    "arguments": [
+      "D:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=CNN",
+      "-c",
+      "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN.cpp"
+    ],
+    "file": "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN.cpp"
+  },
+  {
+    "directory": "D:\\PJ\\CNN_HLS",
+    "arguments": [
+      "D:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=D:\\Xilinx\\2025.1\\Vitis\\include",
+      "-c",
+      "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN_tb.cpp"
+    ],
+    "file": "D:\\PJ\\CNN_HLS\\..\\..\\PhamDuyHoang_LuongVanDai_DA2\\CNN_nopad\\CNN_tb.cpp"
+  }
+]

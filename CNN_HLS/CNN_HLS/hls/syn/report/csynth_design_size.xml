@@ -1,0 +1,71 @@
+<design_size title="Design Size Report">
+    <item name="Total Instructions per Compilation Phase">
+        <table>
+            <keys size="4">Phase, Step, Instructions, Description</keys>
+            <column name="Compile/Link">, 12331, After all functions are compiled and linked into a single design</column>
+            <column name="">, , </column>
+            <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
+            <column name="">(1) unroll,  2175, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,  1168, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,  1027, user inline pragmas are applied</column>
+            <column name="">(4) simplification,    953, simplification of applied user inline pragmas</column>
+            <column name="">, , </column>
+            <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(1) array partition,    953, user array partition pragmas are applied</column>
+            <column name="">(2) simplification,    953, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate ,    953, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape,    953, apply array reshape pragmas</column>
+            <column name="">(5) access patterns,  1010, array access pattern optmizations</column>
+            <column name="">, , </column>
+            <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
+            <column name="">(1) loop simplification,  1010, loop and instruction simplification</column>
+            <column name="">(2) parallelization,  3392, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition,  5035, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification,  4214, simplification of design after performance transformations</column>
+            <column name="">, , </column>
+            <column name="HW Transforms">, , After hardware transfomations</column>
+            <column name="">(1) lowering,  4220, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations,  4411, high level synthesis optimizations</column>
+        </table>
+    </item>
+    <item name="Instructions per Function for each Compilation Phase">
+        <hiertable>
+            <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
+            <rows>
+                <row id="0" col0="CNN" col1="CNN.cpp:8" col2="12331" col3="953" col4="1010" col5="4214" col6="4411">
+                    <row id="4" col0="Padding_Conv1D_0" col1="Conv.cpp:3" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="18" col0="Conv1D_0" col1="Conv.cpp:12" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="17" col0="Padding_Conv1D_1" col1="Conv.cpp:29" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="9" col0="Conv1D_1" col1="Conv.cpp:38" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="15" col0="Max_Pool1D_0" col1="Pool.cpp:3" col2="122" col3="" col4="" col5="" col6=""/>
+                    <row id="21" col0="Padding_Conv1D_2" col1="Conv.cpp:55" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="10" col0="Conv1D_2" col1="Conv.cpp:64" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="6" col0="Padding_Conv1D_3" col1="Conv.cpp:81" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="13" col0="Conv1D_3" col1="Conv.cpp:90" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="8" col0="Max_Pool1D_1" col1="Pool.cpp:25" col2="122" col3="" col4="" col5="" col6=""/>
+                    <row id="16" col0="Padding_Conv1D_4" col1="Conv.cpp:107" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="11" col0="Conv1D_4" col1="Conv.cpp:116" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="1" col0="Padding_Conv1D_5" col1="Conv.cpp:133" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="12" col0="Conv1D_5" col1="Conv.cpp:142" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="20" col0="Max_Pool1D_2" col1="Pool.cpp:47" col2="122" col3="" col4="" col5="" col6=""/>
+                    <row id="2" col0="Padding_Conv1D_6" col1="Conv.cpp:159" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="19" col0="Conv1D_6" col1="Conv.cpp:168" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="7" col0="Padding_Conv1D_7" col1="Conv.cpp:185" col2="98" col3="" col4="" col5="" col6=""/>
+                    <row id="3" col0="Conv1D_7" col1="Conv.cpp:194" col2="1073" col3="" col4="" col5="" col6=""/>
+                    <row id="14" col0="Max_Pool1D_3" col1="Pool.cpp:69" col2="122" col3="" col4="" col5="" col6=""/>
+                    <row id="5" col0="GlobalAveragePool1D" col1="Pool.cpp:91" col2="403" col3="" col4="" col5="" col6=""/>
+                    <row id="22" col0="Dense_0" col1="Dense.cpp:3" col2="1023" col3="" col4="" col5="" col6=""/>
+                    <row id="23" col0="Dense_1" col1="Dense.cpp:14" col2="850" col3="" col4="" col5="" col6=""/>
+                </row>
+            </rows>
+            <notes/>
+        </hiertable>
+    </item>
+    <item name="Design Size Message Settings">
+        <table>
+            <keys size="3">Message Setting, Value, Description</keys>
+            <column name="config_compile -design_size_maximum_warning">100000, Show a warning when total design instructions exceeds this value</column>
+        </table>
+    </item>
+</design_size>
+

@@ -1,0 +1,22 @@
+{
+  "0": {
+    "basicblocks": 163,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 6,
+    "file": "CNN.cpp",
+    "fileloc": 8,
+    "instructions": 1010,
+    "loads": {
+      "L": 24,
+      "T": 29
+    },
+    "memory_accesses": 42,
+    "name": "CNN",
+    "stores": {
+      "L": 23,
+      "T": 2
+    },
+    "total_instructions": 1010
+  }
+}

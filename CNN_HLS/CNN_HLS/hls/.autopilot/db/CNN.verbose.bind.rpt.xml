@@ -1,0 +1,73 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'CNN'" level="0">
+<item name = "Date">Mon Jul 14 02:16:32 2025
+</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
+<item name = "Project">CNN_HLS</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 5.754 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">504806, 504806, 5.048 ms, 5.048 ms, 504807, 504807, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_CNN_Pipeline_loop_for_channel_pad_0_fu_925">CNN_Pipeline_loop_for_channel_pad_0, 326, 326, 3.260 us, 3.260 us, 325, 325, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1_fu_933">CNN_Pipeline_loop_for_3_channel_pad_1_loop_for_channel_pad_1, 1309, 1309, 13.090 us, 13.090 us, 1297, 1297, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_ap_0_fu_941">CNN_Pipeline_loop_for_ap_0, 328, 328, 3.280 us, 3.280 us, 321, 321, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1_fu_957">CNN_Pipeline_VITIS_LOOP_41_1_loop_for_ap_1, 14108, 14108, 0.141 ms, 0.141 ms, 14091, 14091, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0_fu_967">CNN_Pipeline_loop_for_channel_pool_0_loop_for_weight_pool_0, 642, 642, 6.420 us, 6.420 us, 641, 641, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2_fu_973">CNN_Pipeline_loop_for_3_channel_pad_2_loop_for_channel_pad_2, 658, 658, 6.580 us, 6.580 us, 657, 657, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2_fu_980">CNN_Pipeline_VITIS_LOOP_67_1_loop_for_ap_2, 14093, 14093, 0.141 ms, 0.141 ms, 14091, 14091, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3_fu_989">CNN_Pipeline_loop_for_3_channel_pad_3_loop_for_channel_pad_3, 1324, 1324, 13.240 us, 13.240 us, 1313, 1313, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3_fu_997">CNN_Pipeline_VITIS_LOOP_93_1_loop_for_ap_3, 26918, 26918, 0.269 ms, 0.269 ms, 26901, 26901, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1_fu_1007">CNN_Pipeline_loop_for_channel_pool_1_loop_for_weight_pool_1, 642, 642, 6.420 us, 6.420 us, 641, 641, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4_fu_1013">CNN_Pipeline_loop_for_3_channel_pad_4_loop_for_channel_pad_4, 683, 683, 6.830 us, 6.830 us, 673, 673, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4_fu_1021">CNN_Pipeline_VITIS_LOOP_119_1_loop_for_ap_4, 26916, 26916, 0.269 ms, 0.269 ms, 26901, 26901, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5_fu_1031">CNN_Pipeline_loop_for_3_channel_pad_5_loop_for_channel_pad_5, 1348, 1348, 13.480 us, 13.480 us, 1345, 1345, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2_fu_1037">CNN_Pipeline_loop_for_channel_pool_2_loop_for_weight_pool_2, 642, 642, 6.420 us, 6.420 us, 641, 641, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5_fu_1043">CNN_Pipeline_loop_for_ap_5_loop_for_fc_5_loop_for_fa_5, 6408, 6408, 64.080 us, 64.080 us, 6401, 6401, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6_fu_1054">CNN_Pipeline_loop_for_3_channel_pad_6_loop_for_channel_pad_6, 708, 708, 7.080 us, 7.080 us, 705, 705, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7_fu_1060">CNN_Pipeline_loop_for_3_channel_pad_7_loop_for_channel_pad_7, 1412, 1412, 14.120 us, 14.120 us, 1409, 1409, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6_fu_1066">CNN_Pipeline_loop_for_ap_6_loop_for_fc_6_loop_for_fa_6, 3208, 3208, 32.080 us, 32.080 us, 3201, 3201, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3_fu_1078">CNN_Pipeline_loop_for_channel_pool_3_loop_for_weight_pool_3, 649, 649, 6.490 us, 6.490 us, 641, 641, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7_fu_1093">CNN_Pipeline_loop_for_ap_7_loop_for_fc_7_loop_for_fa_7, 6408, 6408, 64.080 us, 64.080 us, 6401, 6401, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_VITIS_LOOP_93_1_fu_1105">CNN_Pipeline_VITIS_LOOP_93_1, 35, 35, 0.350 us, 0.350 us, 33, 33, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_a_Dense_0_fu_1120">CNN_Pipeline_loop_for_a_Dense_0, 359, 359, 3.590 us, 3.590 us, 357, 357, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_for_a_Dense_1_fu_1161">CNN_Pipeline_loop_for_a_Dense_1, 68, 68, 0.680 us, 0.680 us, 66, 66, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_CNN_Pipeline_loop_detect_fu_1190">CNN_Pipeline_loop_detect, 6, 6, 60.000 ns, 60.000 ns, 5, 5, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_15_1">1332, 1332, 333, -, -, 4, no</column>
+<column name="- VITIS_LOOP_145_1">102592, 102592, 6412, -, -, 16, no</column>
+<column name="- VITIS_LOOP_171_1">102784, 102784, 3212, -, -, 32, no</column>
+<column name="- VITIS_LOOP_197_1">205184, 205184, 6412, -, -, 32, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>
